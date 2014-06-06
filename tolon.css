@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/bg.jpg), url(images/tolon-w.svg);
+    background-size: cover, 4em;
+}
+
+body>header {
+    position: fixed;
+    width:20vw;
+    min-width: 200px;
+}
+body>header>h1{
+    margin:0;
+}
+
+.reveal section > img {
+    max-height: 100%;
+    max-width: none;
+    height: 100%;
+    width: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal section {
+    padding: 0;
+
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: "Open Sans";
+    text-transform: none;
+    text-shadow: 0 2px 5px black;
+}
+
+.reveal h6 {font-size: .5em;}
+
+.reveal section > div {
+    position: absolute;
+    top: 0; left: 0;
+}
