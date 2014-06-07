@@ -6,22 +6,37 @@
 		if( isEnabled ) {
             var waitForZoomOut = 0;
 			event.preventDefault();
-            zoom.to({ 
+            var transform = { 
                 x: event.fragment.offsetLeft + event.fragment.offsetWidth/2, 
                 y: event.fragment.offsetTop + event.fragment.offsetHeight/2, 
-                scale: 2, 
-                pan: false 
-            });
-                
+                scale: 3
+            };
+            zoomTo(transform);
 		}
 	} );
     
     Reveal.addEventListener( 'slidechanged', function( event ) { 
-        if(event.currentSlide.dataset.flow==null) { zoom.out(); } 
+        if(event.currentSlide.dataset.flow==null) { 
+            zoomTo({ scale: 1, x: 960, y: 540 });
+        } else {
+            var firstFragment = event.currentSlide.querySelector("div:first-of-type");
+            var transform = { 
+                x: firstFragment.offsetLeft + firstFragment.offsetWidth/2, 
+                y: firstFragment.offsetTop + firstFragment.offsetHeight/2, 
+                scale: 3
+            };
+            zoomTo(transform);
+        }
     } );
     
 	Reveal.addEventListener( 'overviewshown', function() { isEnabled = false; } );
 	Reveal.addEventListener( 'overviewhidden', function() { isEnabled = true; } );
+    
+    function zoomTo(tr) {
+        document.body.style.webkitTransformOrigin = tr.x + 'px ' + tr.y + 'px';
+        document.body.style.webkitTransform = 'scale(' + tr.scale + ')';
+    }
+    
 })();
 
 /*!
@@ -51,7 +66,7 @@ var zoom = (function(){
 								'OTransform' in document.body.style ||
 								'transform' in document.body.style;
 
-	if( supportsTransforms ) {
+	if( supportsTransforms && false ) {
 		// The easing that will be applied when we zoom in/out
 		document.body.style.transition = 'transform 0.8s ease';
 		document.body.style.OTransition = '-o-transform 0.8s ease';

@@ -1,6 +1,9 @@
 body {
     background-image: url(images/bg.jpg), url(images/tolon-w.svg);
     background-size: cover, 4em;
+    -webkit-transition-property: -webkit-transform-origin, -webkit-transform;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-duration: 1s;
 }
 
 body>header {
@@ -44,3 +47,7 @@ body>header>h1{
     position: absolute;
     top: 0; left: 0;
 }
+
+/*.reveal .slides section div.fragment { opacity: 0.3; }
+.reveal .slides section div.fragment.current-fragment { opacity: 1; }
+.reveal .slides section div.fragment.current-fragment ~ .fragment { opacity: 0; }*/
