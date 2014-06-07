@@ -16,7 +16,9 @@
 		}
 	} );
     
-    Reveal.addEventListener( 'slidechanged', function() { zoom.out(); } );
+    Reveal.addEventListener( 'slidechanged', function( event ) { 
+        if(event.currentSlide.dataset.flow==null) { zoom.out(); } 
+    } );
     
 	Reveal.addEventListener( 'overviewshown', function() { isEnabled = false; } );
 	Reveal.addEventListener( 'overviewhidden', function() { isEnabled = true; } );
