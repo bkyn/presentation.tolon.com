@@ -1,9 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
+
 body {
-    background-image: url(images/bg.jpg), url(images/tolon-w.svg);
-    background-size: cover, 4em;
     -webkit-transition-property: -webkit-transform-origin, -webkit-transform;
     -webkit-transition-timing-function: ease;
     -webkit-transition-duration: 1s;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
 }
 
 body>header {
@@ -36,7 +38,7 @@ body>header>h1{
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     text-transform: none;
     text-shadow: 0 2px 5px black;
 }
