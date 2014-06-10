@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
 
 body {
-    background-image: url(images/bg.jpg), url(images/tolon-w.svg);
-    background-size: cover, 4em;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
 }
 
 body>header {
