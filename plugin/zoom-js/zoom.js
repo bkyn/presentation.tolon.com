@@ -6,33 +6,33 @@
 		if( isEnabled ) {
             var waitForZoomOut = 0;
 			event.preventDefault();
-            var transform = { 
-                x: event.fragment.offsetLeft + event.fragment.offsetWidth/2, 
-                y: event.fragment.offsetTop + event.fragment.offsetHeight/2, 
-                scale: 3
-            };
-            zoomTo(transform);
+            zoomTo(event.fragment);
 		}
 	} );
     
     Reveal.addEventListener( 'slidechanged', function( event ) { 
         if(event.currentSlide.dataset.flow==null) { 
-            zoomTo({ scale: 1, x: 960, y: 540 });
+            zoomTo(false);
         } else {
             var firstFragment = event.currentSlide.querySelector("div:first-of-type");
-            var transform = { 
-                x: firstFragment.offsetLeft + firstFragment.offsetWidth/2, 
-                y: firstFragment.offsetTop + firstFragment.offsetHeight/2, 
-                scale: 3
-            };
-            zoomTo(transform);
+            zoomTo(firstFragment);
         }
     } );
     
 	Reveal.addEventListener( 'overviewshown', function() { isEnabled = false; } );
 	Reveal.addEventListener( 'overviewhidden', function() { isEnabled = true; } );
     
-    function zoomTo(tr) {
+    function zoomTo(element) {
+        var tr = {}
+        if (element) {
+            tr = { 
+                    x: element.offsetLeft + element.offsetWidth/2, 
+                    y: element.offsetTop + element.offsetHeight/2, 
+                    scale: 3
+            };
+        } else {
+            tr = { x: 0, y: 0, scale: 1 };
+        }
         document.body.style.webkitTransformOrigin = tr.x + 'px ' + tr.y + 'px';
         document.body.style.webkitTransform = 'scale(' + tr.scale + ')';
     }
