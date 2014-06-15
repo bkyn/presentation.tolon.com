@@ -1,15 +1,15 @@
-(function(){
+(function () {
 	var isEnabled = true;
 
-	Reveal.addEventListener( 'fragmentshown', function( event ) {
-		if( isEnabled ) {
+	Reveal.addEventListener('fragmentshown', function (event) {
+		if (isEnabled) {
             var waitForZoomOut = 0;
 			event.preventDefault();
             zoomTo(event.fragment);
 		}
 	} );
     
-    Reveal.addEventListener( 'slidechanged', function( event ) { 
+    Reveal.addEventListener('slidechanged', function (event) {
         if(event.currentSlide.dataset.flow==null) { 
             zoomTo(false);
         } else {
@@ -23,7 +23,10 @@
     
     function zoomTo(element) {
         var tr = {}
-        var factor = parseFloat( document.querySelector(".reveal .slides").style.zoom )
+        var factor = parseFloat(
+            document.querySelector(".reveal .slides").style.zoom
+            || document.querySelector(".reveal .slides").style.transform.match(/scale\((\d+\.?\d*)\)/)[1]
+            || "1" )
         if (element) {
             tr = { 
                     x: (element.offsetLeft + element.offsetWidth/2) * factor, 
