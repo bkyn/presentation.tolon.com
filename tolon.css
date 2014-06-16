@@ -6,6 +6,7 @@ body {
     -webkit-transition-duration: 1s;
     background-image: url(images/bg.jpg);
     background-size: cover;
+    -webkit-transform-origin: 0 0;
 }
 
 body>header {
