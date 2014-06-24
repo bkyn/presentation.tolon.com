@@ -23,15 +23,16 @@
     
     function zoomTo(element) {
         var tr = {}
+        var zoom = (element && element.dataset.zoom) || 2;
         var factor = parseFloat(
             document.querySelector(".reveal .slides").style.zoom
             || document.querySelector(".reveal .slides").style.transform.match(/scale\((\d+\.?\d*)\)/)[1]
-            || "1" ) * 2;
+            || "1" ) * (zoom-1);
         if (element) {
             tr = { 
                     x: -(element.offsetLeft + element.offsetWidth/2) * factor ,
                     y: -(element.offsetTop + element.offsetHeight/2) * factor ,
-                    scale: 3
+                    scale: zoom
             };
         } else {
             tr = { x: 0, y: 0, scale: 1 };
