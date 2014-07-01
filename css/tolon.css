@@ -4,7 +4,7 @@ body {
     -webkit-transition-property: -webkit-transform-origin, -webkit-transform;
     -webkit-transition-timing-function: ease;
     -webkit-transition-duration: 1s;
-    background-image: url(images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     -webkit-transform-origin: 0 0;
 }
