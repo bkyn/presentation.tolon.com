@@ -30,7 +30,37 @@
 				link.href = 'css/print/pdf.css';
 				document.getElementsByTagName( 'head' )[0].appendChild( link );
 			}
+
+            var cache = window.applicationCache;
+
+            var cacheChange = function(e) {
+                var p = document.getElementById("cache");
+                switch (cache.status) {
+                case cache.UNCACHED:
+                    p.textContent = "Hazır değil"; break;
+                case cache.IDLE:
+                    p.textContent = "Hazır"; break;
+                case cache.CHECKING:
+                    p.textContent = "Kontrol ediliyor..."; break;
+                case cache.DOWNLOADING:
+                    p.textContent = "İndiriliyor..."; break;
+                case cache.UPDATEREADY:
+                    p.textContent = "Güncellendi. Sayfayı tazeleyin"; window.location.reload(); break;
+                case cache.OBSOLETE:
+                    p.textContent = "Bayat. Online kullanın."; break;
+                default:
+                    p.textContent = "Durum bilinmiyor."; break;
+                };
+
+            }
+
+            var cacheEvents = ['cached','checking','downloading','noupdate','obsolete','progress','updateready'];
+
+            for (e in cacheEvents) {
+                cache.addEventListener(cacheEvents[e],cacheChange,false);
+            }
 		</script>
+
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -52,6 +82,7 @@
 			            <li><a href="td.html">TD Serisi</a></li>
 			            <li><a href="ttf200.html">TTF200</a></li>
 			        </ul>
+			        <p id="cache">Çevrimdışı kullanım durumu belli değil.</p>
 			    </section>
 
 			</div>
