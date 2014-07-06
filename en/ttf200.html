@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" manifest="/cache.manifest" >
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Tolon TTF200 Towel folder</title>
+
+		<meta name="description" content="Tolon Makine satış sunumu">
+		<meta name="author" content="Mert Torun">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=1920, user-scalable=no">
+
+		<link rel="stylesheet" href="../css/reveal.min.css">
+		<link rel="stylesheet" href="../css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="../css/tolon.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+        <header>
+            <h1><img src="../images/tolon-w.svg" alt="Tolon"></h1>
+        </header>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+                <section>
+                    <h1>TTF200</h1>
+                    <h2>Towel folder</h2>
+                </section>
+                <section>
+                    <img src="../images/ttf200_0002_conveyor.png" alt="">
+                    <div style="top: 700px; left: 350px;" class="fragment">
+                        <h4>Hand sensor switch</h4>
+                        <h6>Safe and quick operation</h6>
+                    </div>
+                    <div style="top: 900px; left: 450px;" class="fragment">
+                        <h4>Dirty towel basket</h4>
+                        <h6>Better service quality</h6>
+                    </div>
+                    <div style="top: 800px; left: 1150px;" class="fragment">
+                        <h4>Sliding stacker</h4>
+                        <h6>Better stacking</h6>
+                    </div>
+                     <div style="top: 500px; left: 450px;" class="fragment" data-zoom="4">
+                        <h4>Easy interface</h4>
+                        <h6>Practical and error-free operation</h6>
+                    </div>
+                </section>
+                <section data-flow>
+                    <img src="../images/ttf200_0000_open.png" alt="">
+                    <div style="top: 400px; left: 500px;"  >
+                        <h4>USB &amp; Ethernet</h4>
+                        <h6>Remote tracking and automation</h6>
+                    </div>
+                    <div style="top: 400px; left: 1250px;" class="fragment" data-zoom="2.8" >
+                        <h4>Simplified wiring</h4>
+                        <h6>Easy maintenance</h6>
+                    </div>
+                </section>
+                <section>
+                    <img src="../images/ttf200_0003_back-open.png" alt="">
+                    <div style="top: 700px; left: 750px;" class="fragment" >
+                        <h4>Simplified mechanism</h4>
+                        <h6>Easy maintenance</h6>
+                    </div>
+                </section>
+                <section>
+                    <img src="../images/ttf200_0002_conveyor.png" alt="">
+                </section>
+
+			    <section>
+			        <ul>
+			            <li><a href="twe.html">TWE Series</a></li>
+			            <li><a href="twe-xl.html">TWE XL Series</a></li>
+			            <li><a href="td.html">TD Series</a></li>
+			        </ul>
+			    </section>
+			</div>
+
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				center: true,
+				width: 1920, height: 1200, margin: 0,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../plugin/zoomin/zoomin.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
