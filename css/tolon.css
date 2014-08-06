@@ -21,8 +21,8 @@ body>header>h1{
 .reveal section > img {
     max-height: 100%;
     max-width: none;
-    height: 100%;
-    width: none;
+    height: 1080px;
+    width: auto;
     background: none;
     border: none;
     box-shadow: none;
