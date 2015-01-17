@@ -28,6 +28,20 @@ body>header>h1{
     box-shadow: none;
 }
 
+.fragment.twe20screenshot {
+    left: 348px;
+    top: 112.25px;
+    position: absolute;
+}
+
+.twe20screenshot img {
+    transform: scale(0.078) translate(0px,185px);
+    border: none !important;
+    background: none !important;
+}
+
+.twe20screenshot.visible:not(.current-fragment) { opacity: 0; visibility: hidden; }
+
 .reveal section {
     padding: 0;
 
