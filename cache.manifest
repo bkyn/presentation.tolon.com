@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v06
+# v07
 /index.html
 /td.html
 /ttf200.html
@@ -46,6 +46,21 @@ CACHE MANIFEST
 /images/twe20_0004_yanyana.png
 /images/twe20_0005_arka_acik.png
 /images/twe20_0006_arka_kapali.png
+/images/screenshots/QnA_programming.png
+/images/screenshots/alarm_statistics.png
+/images/screenshots/backup_restore.png
+/images/screenshots/consumption.png
+/images/screenshots/export_program.png
+/images/screenshots/external_dispenser.p
+/images/screenshots/manual_io.png
+/images/screenshots/mimic_diagram.png
+/images/screenshots/multi_user.png
+/images/screenshots/parameters.png
+/images/screenshots/program_overview.png
+/images/screenshots/program_running.png
+/images/screenshots/troubleshooting.png
+/images/screenshots/unicode_language.png
+/images/screenshots/usb_upgrade.png
 /images/screenshots/twe/alarm.png
 /images/screenshots/twe/backup.png
 /images/screenshots/twe/consumption.png

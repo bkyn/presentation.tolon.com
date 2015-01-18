@@ -40,7 +40,27 @@ body>header>h1{
     background: none !important;
 }
 
-.twe20screenshot.visible:not(.current-fragment) { opacity: 0; visibility: hidden; }
+.twe110screenshot.visible:not(.current-fragment),
+.twe20screenshot.visible:not(.current-fragment) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fragment.twe110screenshot {
+    left: 782px;
+    top: 207px;
+    position: absolute;
+}
+
+.twe110screenshot img {
+    transform: scale(0.085);
+    border: none !important;
+    background: none !important;
+}
+
+.twe20screenshot, twe110screenshot {
+    transition: opacity .5s linear;
+}
 
 .reveal section {
     padding: 0;
