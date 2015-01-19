@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v11
+# v12
 /index.html
 /td.html
 /ttf200.html
@@ -52,7 +52,7 @@ CACHE MANIFEST
 /images/screenshots/en/twe110/backup_restore.png
 /images/screenshots/en/twe110/consumption.png
 /images/screenshots/en/twe110/export_program.png
-/images/screenshots/en/twe110/external_dispenser.p
+/images/screenshots/en/twe110/external_dispenser.png
 /images/screenshots/en/twe110/manual_io.png
 /images/screenshots/en/twe110/mimic_diagram.png
 /images/screenshots/en/twe110/multi_user.png
@@ -83,7 +83,7 @@ CACHE MANIFEST
 /images/screenshots/tr/twe110/backup_restore.png
 /images/screenshots/tr/twe110/consumption.png
 /images/screenshots/tr/twe110/export_program.png
-/images/screenshots/tr/twe110/external_dispenser.p
+/images/screenshots/tr/twe110/external_dispenser.png
 /images/screenshots/tr/twe110/manual_io.png
 /images/screenshots/tr/twe110/mimic_diagram.png
 /images/screenshots/tr/twe110/multi_user.png
@@ -120,3 +120,7 @@ CACHE MANIFEST
 /lib/js/head.min.js
 /lib/js/html5shiv.js
 /plugin/zoomin/zoomin.js
+
+NETWORK:
+
+*
