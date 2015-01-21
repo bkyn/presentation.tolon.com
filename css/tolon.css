@@ -38,6 +38,7 @@ body>header>h1{
     transform: scale(0.078) translate(0px,185px);
     border: none !important;
     background: none !important;
+    box-shadow: none !important;
 }
 
 .twe110screenshot.visible:not(.current-fragment),
@@ -56,6 +57,7 @@ body>header>h1{
     transform: scale(0.085);
     border: none !important;
     background: none !important;
+    box-shadow: none !important;
 }
 
 .twe20screenshot, twe110screenshot {
