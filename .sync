@@ -1,0 +1,2 @@
+#!/bin/bash
+aws s3 sync --exclude ".*" --acl public-read  . s3://sunum.tolon.com
