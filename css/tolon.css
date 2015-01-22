@@ -28,40 +28,34 @@ body>header>h1{
     box-shadow: none;
 }
 
-.fragment.twe20screenshot {
-    left: 348px;
-    top: 112.25px;
+.reveal section .screenshot {
+    left: 0;
+    top: -600px;
     position: absolute;
 }
 
-.twe20screenshot img {
-    transform: scale(0.078) translate(0px,185px);
+.screenshot img {
+    max-height: none;
+    max-width: none;
+    margin: 0 !important;
+    box-sizing: border-box;
+    width: 1920px; height: 1200px;
     border: none !important;
-    background: none !important;
     box-shadow: none !important;
 }
 
-.twe110screenshot.visible:not(.current-fragment),
-.twe20screenshot.visible:not(.current-fragment) {
-    opacity: 0;
+.screenshot.visible:not(.current-fragment) {
     visibility: hidden;
 }
 
-.fragment.twe110screenshot {
-    left: 782px;
-    top: 207px;
-    position: absolute;
+.twe20.screenshot img {
+    padding: 336px 718px 450px 508px;
+    background: url(/images/twe20-panel-01.png) !important;
 }
 
-.twe110screenshot img {
-    transform: scale(0.085);
-    border: none !important;
-    background: none !important;
-    box-shadow: none !important;
-}
-
-.twe20screenshot, twe110screenshot {
-    transition: opacity .5s linear;
+.twe110.screenshot img {
+    padding: 96px 618px 696px 618px;
+    background: url(/images/twe110-panel-02.png) !important;
 }
 
 .reveal section {
