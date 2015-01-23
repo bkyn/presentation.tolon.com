@@ -58,9 +58,12 @@ body>header>h1{
     background: url(/images/twe110-panel-02.png) !important;
 }
 
+.twe20.screenshot h4 {
+    margin-top: -180px;
+}
+
 .reveal section {
     padding: 0;
-
 }
 
 .reveal h1,
