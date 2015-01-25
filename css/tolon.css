@@ -66,6 +66,13 @@ body>header>h1{
     margin-top: -540px;
 }
 
+.fragment img.popup {
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50%;
+}
+
 .reveal section {
     padding: 0;
 }
