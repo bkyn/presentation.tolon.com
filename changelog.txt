@@ -1,0 +1,6 @@
+# v23 
+2005-02-16
+
+* Yapılan değişiklikler changelog.txt dosyasında takip edilmeye başlandı
+* TWE ve TWE-XL serisi arayüz görselleri satış ekibinin(DH) isteği doğrultusunda bir arada olacak şekilde düzenlendi
+* TWE-XL dozajlama girişi başlığı eklendi
