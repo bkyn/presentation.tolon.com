@@ -1,0 +1,20 @@
+# v23
+2015-02-16
+
+* Started tracking changes in changelog.txt
+* TWE ve TWE-XL interface screenshots re-arranged sequentially at the request of the sales team(DH)
+* Added TWE-XL dosing input
+
+# v24
+2015-06-08
+
+* A brand new morning for Turkey
+* Bumpers added to the TWE110 photos
+* Replaced TWE20 and TTD40 side-by-side illustrations with actual photos
+* Added TTF200 sliding stacker photo
+
+# v25
+2015-07-15
+
+* Changelog and status messages in english.
+* Renamed TD series to TTD

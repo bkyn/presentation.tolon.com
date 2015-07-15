@@ -37,19 +37,19 @@
                 var p = document.getElementById("cache");
                 switch (cache.status) {
                 case cache.UNCACHED:
-                    p.textContent = "Hazır değil"; break;
+                    p.textContent = "Hazır değil | Not ready"; break;
                 case cache.IDLE:
-                    p.textContent = "Hazır"; break;
+                    p.textContent = "Hazır | Ready"; break;
                 case cache.CHECKING:
-                    p.textContent = "Kontrol ediliyor..."; break;
+                    p.textContent = "Kontrol ediliyor... | Checking..."; break;
                 case cache.DOWNLOADING:
-                    p.textContent = "İndiriliyor..."; break;
+                    p.textContent = "İndiriliyor... | Downloading..."; break;
                 case cache.UPDATEREADY:
-                    p.textContent = "Güncellendi. Sayfayı tazeleyin"; window.location.reload(); break;
+                    p.textContent = "Güncellendi. Sayfayı tazeleyin | Updated. Refresh the page"; window.location.reload(); break;
                 case cache.OBSOLETE:
-                    p.textContent = "Bayat. Online kullanın."; break;
+                    p.textContent = "Bayat. Online kullanın. | Obsolete. Go online."; break;
                 default:
-                    p.textContent = "Durum bilinmiyor."; break;
+                    p.textContent = "Durum bilinmiyor. | Status unknown."; break;
                 };
 
             }
@@ -79,11 +79,11 @@
               <ul>
                   <li><a href="twe.html">TWE Serisi</a> [<a href="en/twe.html">en</a>]</li>
                   <li><a href="twe-xl.html">TWE XL Serisi</a> [<a href="en/twe-xl.html">en</a>]</li>
-                  <li><a href="td.html">TD Serisi</a> [<a href="en/td.html">en</a>]</li>
+                  <li><a href="td.html">TTD Serisi</a> [<a href="en/td.html">en</a>]</li>
                   <li><a href="ttf200.html">TTF200</a> [<a href="en/ttf200.html">en</a>]</li>
               </ul>
               <p id="cache">Çevrimdışı kullanım durumu belli değil.</p>
-              <p><a href="/changelog.txt">v24</a></p>
+              <p><a href="/changelog.txt">v25</a> [<a href="en/changelog.txt">en</a>]</p>
           </section>
 
       </div>
