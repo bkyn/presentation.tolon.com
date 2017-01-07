@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" manifest="/cache.manifest" >
+<html lang="tr" manifest="/cache.manifest" >
 
   <head>
     <meta charset="utf-8">
@@ -43,7 +43,7 @@
                 case cache.CHECKING:
                     p.textContent = "Kontrol ediliyor... | Checking..."; break;
                 case cache.DOWNLOADING:
-                    p.textContent = "İndiriliyor... | Downloading..."; break;
+                    p.textContent = "İndiriliyor... | Downloading... " + e.loaded + "/" + e.total; break;
                 case cache.UPDATEREADY:
                     p.textContent = "Güncellendi. Sayfayı tazeleyin | Updated. Refresh the page"; window.location.reload(); break;
                 case cache.OBSOLETE:
@@ -54,7 +54,7 @@
 
             }
 
-            var cacheEvents = ['cached','checking','downloading','noupdate','obsolete','progress','updateready'];
+            var cacheEvents = ['cached','checking','downloading','noupdate','obsolete','progress','updateready','error'];
 
             for (e in cacheEvents) {
                 cache.addEventListener(cacheEvents[e],cacheChange,false);
@@ -84,7 +84,7 @@
                   <li><a href="ttf200.html">TTF200</a> [<a href="en/ttf200.html">en</a>]</li>
               </ul>
               <p id="cache">Çevrimdışı kullanım durumu belli değil.</p>
-              <p><a href="/changelog.txt">v25</a> [<a href="en/changelog.txt">en</a>]</p>
+              <p><a href="/changelog.txt">v26</a> [<a href="en/changelog.txt">en</a>]</p>
           </section>
 
       </div>

@@ -18,3 +18,13 @@
 
 * Changelog and status messages in english.
 * Renamed TD series to TTD
+
+# v26
+2017-01-08
+
+* TWE visuals updated with the new loading door.
+* Added Teflon gaskets and accelerometer on TWE and TWE-XL.
+* Replaced cataphoresis paint with thermoplastic coating on TWE-XL.
+* Added TWE-XL cradle start.
+* Replaced "air cushion" with "pneumatic tilting" on TWE-XL.
+* TWE/3 computer extracted into a separate presentation.

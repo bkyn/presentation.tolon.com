@@ -17,3 +17,13 @@
 2015-07-15
 
 * Changelog dosyası ingilizceye de çevrildi.
+
+# v26
+2017-01-08
+
+* TWE görselleri yeni kapak ile güncellendi.
+* TWE ve TWE-XL teflon keçe ve ivme ölçer eklendi.
+* TWE-XL kataforez boya, termoplastik kaplama ifadesi ile değiştirildi.
+* TWE-XL beşik start eklendi.
+* TWE-XL hava yastığı ifadesi pnömatik devirme olarak değiştirildi.
+* TWE/3 bilgisayar sunumu ayrı bir sunum haline getirildi.
