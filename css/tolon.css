@@ -50,12 +50,12 @@ body>header>h1{
 
 .twe20.screenshot img {
     padding: 336px 718px 450px 508px;
-    background: url(/images/twe20-panel-01.png) !important;
+    background: url(../images/twe20-panel-01.png) !important;
 }
 
 .twe110.screenshot img {
     padding: 96px 618px 696px 618px;
-    background: url(/images/twe110-panel-02.png) !important;
+    background: url(../images/twe110-panel-02.png) !important;
 }
 
 .twe20.screenshot h4 {
