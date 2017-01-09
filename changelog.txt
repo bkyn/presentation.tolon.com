@@ -27,3 +27,12 @@
 * TWE-XL beşik start eklendi.
 * TWE-XL hava yastığı ifadesi pnömatik devirme olarak değiştirildi.
 * TWE/3 bilgisayar sunumu ayrı bir sunum haline getirildi.
+
+# v27
+2017-01-10
+
+* TWE beşik start eklendi.
+* TWE pasif soğutmalı motor kaldırıldı.
+* TWE-XL Invt markası silindi.
+* TWE ve TWE-XL serbest duruş eklendi.
+* Durum ışığı lejandı eklendi.

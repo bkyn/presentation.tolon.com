@@ -28,3 +28,12 @@
 * Added TWE-XL cradle start.
 * Replaced "air cushion" with "pneumatic tilting" on TWE-XL.
 * TWE/3 computer extracted into a separate presentation.
+
+# v27
+2017-01-10
+
+* Added TWE cradle start.
+* Removed TWE passive cooled motor.
+* Erased Invt brand on TWE-XL.
+* Added TWE and TWE-XL freestanding.
+* Added status light legend.
