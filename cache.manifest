@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v27
+# v28
 /index.html
 /td.html
 /ttf200.html
@@ -73,6 +73,7 @@ CACHE MANIFEST
 /images/screenshots/en/troubleshooting.png
 /images/screenshots/en/unicode_language.png
 /images/screenshots/en/usb_upgrade.png
+/images/screenshots/en/weighing.png
 
 /images/screenshots/tr/QnA_programming.png
 /images/screenshots/tr/alarm_statistics.png
@@ -89,6 +90,7 @@ CACHE MANIFEST
 /images/screenshots/tr/troubleshooting.png
 /images/screenshots/tr/unicode_language.png
 /images/screenshots/tr/usb_upgrade.png
+/images/screenshots/tr/weighing.png
 
 /css/reveal.css
 /css/reveal.min.css

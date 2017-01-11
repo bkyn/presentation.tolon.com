@@ -36,3 +36,9 @@
 * TWE-XL Invt markası silindi.
 * TWE ve TWE-XL serbest duruş eklendi.
 * Durum ışığı lejandı eklendi.
+
+# v28
+2017-01-12
+
+* TWE-XL Teflon keçe kaldırıldı (hiç yokmuş)
+* TWE/3 Tartı sistemi eklendi

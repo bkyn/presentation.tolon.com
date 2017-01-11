@@ -37,3 +37,9 @@
 * Erased Invt brand on TWE-XL.
 * Added TWE and TWE-XL freestanding.
 * Added status light legend.
+
+# v28
+2017-01-12
+
+* Teflon seals removed on TWE-XL (never was)
+* Added TWE/3 weighing system
