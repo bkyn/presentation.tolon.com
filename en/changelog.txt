@@ -43,3 +43,9 @@
 
 * Teflon seals removed on TWE-XL (never was)
 * Added TWE/3 weighing system
+
+# v29
+2017-03-17
+
+* Added patent application numbers for cradle start, accelerometer,
+  ceramic-teflon seals, thermoplastic frame coating and quantum laser ionizer.

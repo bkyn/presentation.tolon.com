@@ -42,3 +42,9 @@
 
 * TWE-XL Teflon keçe kaldırıldı (hiç yokmuş)
 * TWE/3 Tartı sistemi eklendi
+
+# v29
+2017-03-17
+
+* Beşik start, ivme ölçer, seramik-teflon keçe, trmoplastik kaplama ve
+  kuantum lazer iyonizatörü ile ilgili patent başvuru numaraları eklendi.
