@@ -102,6 +102,13 @@ body>header>h1{
     top: 0; left: 0;
 }
 
+.reveal p.patent {
+    font-size: 0.3em;
+    letter-spacing: initial;
+}
+.reveal p.patent:lang(en):before { content: "Patent pending: "; }
+.reveal p.patent:lang(tr):before { content: "Patent başvurusu: "; }
+
 /*.reveal .slides section div.fragment { opacity: 0.3; }
 .reveal .slides section div.fragment.current-fragment { opacity: 1; }
 .reveal .slides section div.fragment.current-fragment ~ .fragment { opacity: 0; }*/
