@@ -48,3 +48,7 @@
 
 * Beşik start, ivme ölçer, seramik-teflon keçe, trmoplastik kaplama ve
   kuantum lazer iyonizatörü ile ilgili patent başvuru numaraları eklendi.
+
+# v30
+
+* TWE-S serisi makineler eklendi (sadece ingilizce)

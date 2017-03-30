@@ -1,16 +1,21 @@
 CACHE MANIFEST
-# v29
+# v30
+
 /index.html
+
 /td.html
 /ttf200.html
 /twe-xl.html
 /twe.html
 /twe3.html
+
 /en/td.html
 /en/ttf200.html
 /en/twe-xl.html
+/en/twe-s.html
 /en/twe.html
 /en/twe3.html
+
 /images/TD-seri-01.svg
 /images/bg.jpg
 /images/td40_0001_arka-acik-kapak.png
@@ -51,6 +56,18 @@ CACHE MANIFEST
 /images/twe20_0006_arka_kapali.png
 /images/twe20_dozajlama-konnektor.jpeg
 /images/twe20_yanyana.png
+
+/images/twe15-00-grup.png
+/images/twe15-01-on.png
+/images/twe15-02-on-deterjanlik.png
+/images/twe15-03-on-kapaklar.png
+/images/twe15-04-on-kazan.png
+/images/twe15-05-on-tambur.png
+/images/twe15-06-on-sase.png
+/images/twe15-07-arka-motor.png
+/images/twe15-08-arka.png
+
+/images/deterjanlik.png
 
 /images/twe20-panel-01.png
 /images/twe110-panel-02.png
