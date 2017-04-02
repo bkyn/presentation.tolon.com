@@ -50,5 +50,12 @@
   kuantum lazer iyonizatörü ile ilgili patent başvuru numaraları eklendi.
 
 # v30
+2017-03-30
 
 * TWE-S serisi makineler eklendi (sadece ingilizce)
+
+# v31
+2017-04-02
+
+* TWE-S serisi makineler eklendi (türkçe versiyon)
+* Önden deterjanlık patent numarası eklendi

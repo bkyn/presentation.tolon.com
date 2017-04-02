@@ -54,3 +54,9 @@
 2017-03-30
 
 * Added TWE-S series washer-extractors, only in english.
+
+# v31
+2017-04-02
+
+* Added TWE-S series washer-extractors, Turkish version.
+* Added patent application number for the front-loading detergent magazine
