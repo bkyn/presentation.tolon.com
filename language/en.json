@@ -1,0 +1,76 @@
+{
+    "language": {
+        "code": "en",
+        "name": "English"
+    },
+    "links": {
+        "twe_s": "TWE S Series",
+        "twe_m": "TWE M Series",
+        "twe_xl": "TWE XL Series",
+        "twe3": "TWE/3 computer",
+        "ttd": "TTD Series",
+        "ttf200": "TTF200"
+    },
+    "td": {
+        "title": {
+            "main": "TTD series",
+            "sub": "Tumble dryers"
+        },
+        "easy_ui": {
+            "feature": "Easy interface",
+            "benefit": "Quick & error-free operation"
+        },
+        "status_light": {
+            "feature": "Status light",
+            "benefit": "Remote awareness"
+        },
+        "sliding_door": {
+            "feature": "Wide hatch, sliding doors",
+            "benefit": "Easy loading & unloading"
+        },
+        "wide_filter_door": {
+            "feature": "Wide filter door",
+            "benefit": "Easy cleaning"
+        },
+        "high_volume_filter": {
+            "feature": "High-volume filter",
+            "benefit": "Long-running high efficiency"
+        },
+        "hinged_panels": {
+            "feature": "Hinged covers",
+            "benefit": "Easy maintenance access"
+        },
+        "compact_design": {
+            "feature": "Compact design",
+            "benefit": "Minimum footprint, maximum capacity, easy maintenance"
+        },
+        "standard_exhaust": {
+            "feature": "Standard exhaust fitting",
+            "benefit": "Easy setup"
+        },
+        "quick_access_door": {
+            "feature": "Easy-access door, \n visible pulley",
+            "benefit": "Instant preventive maintenance"
+        },
+        "document_sleeve": {
+            "feature": "Document sleeve",
+            "benefit": "Error-free maintenance"
+        },
+        "simple_circuits": {
+            "feature": "Simplified wiring",
+            "benefit": "Easy maintenance"
+        },
+        "vacuum_flap": {
+            "feature": "Vacuum flap",
+            "benefit": "Sustained efficiency"
+        },
+        "full_insulation": {
+            "feature": "Fully insulated",
+            "benefit": "Energy savings"
+        },
+        "galvanized_frame": {
+            "feature": "Galvanized components",
+            "benefit": "Long life"
+        }
+    }
+}

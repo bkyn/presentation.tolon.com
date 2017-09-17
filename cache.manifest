@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v31
+# v32
 
 /index.html
 
@@ -9,13 +9,6 @@ CACHE MANIFEST
 /twe-s.html
 /twe-m.html
 /twe3.html
-
-/en/td.html
-/en/ttf200.html
-/en/twe-xl.html
-/en/twe-s.html
-/en/twe-m.html
-/en/twe3.html
 
 /images/TD-seri-01.svg
 /images/bg.jpg
@@ -116,11 +109,15 @@ CACHE MANIFEST
 /css/theme/default.css
 /js/reveal.js
 /js/reveal.min.js
+/js/language.js
 /lib/css/zenburn.css
 /lib/js/classList.js
 /lib/js/head.min.js
 /lib/js/html5shiv.js
 /plugin/zoomin/zoomin.js
+
+/language/en.json
+/language/tr.json
 
 NETWORK:
 

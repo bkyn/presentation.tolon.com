@@ -1,0 +1,76 @@
+{
+    "language": {
+        "code": "tr",
+        "name": "Türkçe"
+    },
+    "links": {
+        "twe_s": "TWE S Serisi",
+        "twe_m": "TWE M Serisi",
+        "twe_xl": "TWE XL Serisi",
+        "twe3": "TWE/3 bilgisayar",
+        "ttd": "TTD Serisi",
+        "ttf200": "TTF200"
+    },
+    "td": {
+        "title": {
+            "main": "TTD serisi",
+            "sub": "Çamaşır kurutucular"
+        },
+        "easy_ui": {
+            "feature": "Kolay arayüz",
+            "benefit": "Hızlı ve hatasız kullanım"
+        },
+        "status_light": {
+            "feature": "Durum ışığı",
+            "benefit": "Makinenin durumu\nher yerden görülebilir"
+        },
+        "sliding_door": {
+            "feature": "Geniş ağız, kayar kapak",
+            "benefit": "Yükleme-boşaltma kolaylığı"
+        },
+        "wide_filter_door": {
+            "feature": "Geniş filtre kapağı",
+            "benefit": "Kolay temizlik"
+        },
+        "high_volume_filter": {
+            "feature": "Geniş hacimli filtre",
+            "benefit": "Uzun süreli yüksek verim"
+        },
+        "hinged_panels": {
+            "feature": "Menteşeli kapaklar",
+            "benefit": "Kolay bakım-onarım"
+        },
+        "compact_design": {
+            "feature": "Kompakt tasarım",
+            "benefit": "Minimum alan, maksimum kapasite, kolay servis"
+        },
+        "standard_exhaust": {
+            "feature": "Standart hava çıkışı",
+            "benefit": "Kolay kurulum"
+        },
+        "quick_access_door": {
+            "feature": "Hızlı erişim kapağı, \n görünür mekanizma",
+            "benefit": "Anında önleyici bakım"
+        },
+        "document_sleeve": {
+            "feature": "Doküman cebi",
+            "benefit": "Hatasız servis"
+        },
+        "simple_circuits": {
+            "feature": "Yalın elektrik paneli",
+            "benefit": "Kolay bakım-onarım"
+        },
+        "vacuum_flap": {
+            "feature": "Vakum kontrol\nklapesi",
+            "benefit": "Sürekli verimlilik"
+        },
+        "full_insulation": {
+            "feature": "Tam izolasyon",
+            "benefit": "Minimum ısı kaybı"
+        },
+        "galvanized_frame": {
+            "feature": "Galvanize iç aksam",
+            "benefit": "Uzun ömür"
+        }
+    }
+}

@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="tr" manifest="/cache.manifest">
+<html lang="tr" manifest="/cache.manifest" data-langkey="td">
 
 <head>
   <meta charset="utf-8">
 
-  <title>Tolon TTD serisi Çamaşır kurutucular</title>
+  <title>Tolon {{title.main}} {{title.sub}}</title>
 
   <meta name="description" content="Tolon Makine satış sunumu">
   <meta name="author" content="Mert Torun">
@@ -35,53 +35,56 @@
   <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="lib/js/mustache.min.js"></script>
+    <script type="text/javascript" src="lib/js/mustache.min.js" id="mustache"></script>
+    <script type="text/javascript" src="js/language.js">
+
+    </script>
 </head>
 
 <body>
   <header>
     <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
   </header>
-  <div class="reveal">
+  <div class="reveal" id="template">
 
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
 
       <section>
-        <h1>TTD serisi</h1>
-        <h2>Çamaşır kurutucular</h2>
+        <h1>{{title.main}}</h1>
+        <h2>{{title.sub}}</h2>
       </section>
 
       <section>
         <img src="images/td40_0003_on-kapali.png">
 
         <div style="top: 420px; left: 810px;" class="fragment" data-zoom="4">
-          <h4>Kolay arayüz</h4>
-          <h6>Hızlı ve hatasız kullanım</h6>
+          <h4>{{easy_ui.feature}}</h4>
+          <h6>{{easy_ui.benefit}}</h6>
         </div>
         <div style="top: 410px; left: 1150px;" class="fragment">
-          <h4>Durum ışığı</h4>
-          <h6>Makinenin durumu<br>her yerden görülebilir</h6>
-          <img src="images/indicator-light.tr.png" class="inlay"/>
+          <h4>{{status_light.feature}}</h4>
+          <h6>{{status_light.benefit}}</h6>
+          <img src="images/indicator-light.{{language.code}}.png" class="inlay"/>
         </div>
       </section>
       <section>
         <img src="images/td40_0004_on-acik-kapak.png">
 
         <div style="top: 560px; left: 800px;" class="fragment">
-          <h4>Geniş ağız, kayar kapak</h4>
-          <h6>Yükleme-boşaltma kolaylığı</h6>
+          <h4>{{sliding_door.feature}}</h4>
+          <h6>{{sliding_door.benefit}}</h6>
         </div>
       </section>
       <section data-flow>
         <img src="images/td40_0005_on-acik-filtre.png">
         <div style="top: 850px; left: 1000px;">
-          <h4>Geniş filtre kapağı</h4>
-          <h6>Kolay temizlik</h6>
+          <h4>{{wide_filter_door.feature}}</h4>
+          <h6>{{wide_filter_door.benefit}}</h6>
         </div>
         <div style="top:800px; left:700px;" class="fragment">
-          <h4>Geniş hacimli filtre</h4>
-          <h6>Uzun süreli yüksek verim</h6>
+          <h4>{{high_volume_filter.feature}}</h4>
+          <h6>{{high_volume_filter.benefit}}</h6>
         </div>
 
       </section>
@@ -89,52 +92,52 @@
         <img src="images/td40_0006_on-acik-panel.png">
 
         <div style="top:600px; left:1000px;" data-zoom="1.5">
-          <h4>Menteşeli kapaklar</h4>
-          <h6>Kolay bakım-onarım</h6>
+          <h4>{{hinged_panels.feature}}</h4>
+          <h6>{{hinged_panels.benefit}}</h6>
         </div>
       </section>
       <section>
         <img src="images/td40_yanyana.png">
         <div style="top:600px; left:1340px;">
-          <h4>Kompakt tasarım</h4>
-          <h6>Minimum alan, maksimum kapasite, kolay servis</h6>
+          <h4>{{compact_design.feature}}</h4>
+          <h6>{{compact_design.benefit}}</h6>
         </div>
       </section>
       <section>
         <img src="images/td40_0001_arka-acik-kapak.png" alt="">
         <div style="top:820px;left:1050px;">
-          <h4>Standart hava çıkışı</h4>
-          <h6>Kolay kurulum</h6>
+          <h4>{{standard_exhaust.feature}}</h4>
+          <h6>{{standard_exhaust.benefit}}</h6>
         </div>
         <div style="top:550px;left:400px;" class="fragment">
-          <h4>Hızlı erişim kapağı, <br> görünür mekanizma</h4>
-          <h6>Anında önleyici bakım</h6>
+          <h4>{{quick_access_door.feature}}</h4>
+          <h6>{{quick_access_door.benefit}}</h6>
         </div>
         <div style="top:520px;left:850px;" class="fragment">
-          <h4>Doküman cebi</h4>
-          <h6>Hatasız servis</h6>
+          <h4>{{document_sleeve.feature}}</h4>
+          <h6>{{document_sleeve.benefit}}</h6>
         </div>
       </section>
       <section data-flow>
         <img src="images/td40_0002_arka-acik-panel.png" alt="">
         <div style="top:420px;left:600px;" data-zoom="3">
-          <h4>Yalın elektrik paneli</h4>
-          <h6>Kolay bakım-onarım</h6>
+          <h4>{{simple_circuits.feature}}</h4>
+          <h6>{{simple_circuits.benefit}}</h6>
         </div>
         <div style="top: 400px;left: 1070px;" class="fragment" data-zoom="4">
-          <h4>Vakum kontrol<br>klapesi</h4>
-          <h6>Sürekli verimlilik</h6>
+          <h4>{{vacuum_flap.feature}}</h4>
+          <h6>{{vacuum_flap.benefit}}</h6>
         </div>
       </section>
       <section>
         <img src="/images/td40_0007_on-ciplak.png">
         <div style="top:540px;left:1070px;">
-          <h4>Tam izolasyon</h4>
-          <h6>Minimum ısı kaybı</h6>
+          <h4>{{full_insulation.feature}}</h4>
+          <h6>{{full_insulation.benefit}}</h6>
         </div>
         <div style="top:900px;left:900px;" class="fragment">
-          <h4>Galvanize iç aksam</h4>
-          <h6>Uzun ömür</h6>
+          <h4>{{galvanized_frame.feature}}</h4>
+          <h6>{{galvanized_frame.benefit}}</h6>
         </div>
       </section>
       <section>
@@ -142,11 +145,11 @@
       </section>
       <section>
         <ul>
-            <li><a href="twe-s.html">TWE S Serisi</a></li>
-            <li><a href="twe-m.html">TWE Serisi</a></li>
-            <li><a href="twe-xl.html">TWE XL Serisi</a></li>
-            <li><a href="twe3.html">TWE/3 bilgisayar</a></li>
-            <li><a href="ttf200.html">TTF200</a></li>
+            <li><a href="twe-s.html">{{links.twe_s}}</a></li>
+            <li><a href="twe-m.html">{{links.twe_m}}</a></li>
+            <li><a href="twe-xl.html">{{links.twe_xl}}</a></li>
+            <li><a href="twe3.html">{{links.twe3}}</a></li>
+            <li><a href="ttf200.html">{{links.ttf200}}</a></li>
         </ul>
       </section>
     </div>
