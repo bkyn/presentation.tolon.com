@@ -49,4 +49,15 @@ let switch_language = (lang) => {
 
 Promise.all(load_languages.concat([prep_template])).then(()=>{
     switch_language(default_language);
+    populate_language_selector();
 });
+
+function populate_language_selector() {
+    language_list = document.getElementById('language-selector').firstElementChild;
+    for (var language in languages) {
+        var li = document.createElement('li');
+        li.lang = language;
+        li.textContent = languages[language].language.name;
+        language_list.appendChild(li);
+    }
+}
