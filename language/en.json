@@ -94,5 +94,79 @@
         "multi_language": "Multiple language support",
         "external_dispenser": "Integrated external dispenser control",
         "consumption_data": "Comprehensive consumption data collection"
+    },
+    "twe_s": {
+        "title": {
+            "main": "TWE S series",
+            "sub": "Washer extractors"
+        },
+        "compact_design": {
+            "feature": "Compact design",
+            "benefit": "Minimum footprint, maximum capacity"
+        },
+        "status_light": {
+            "feature": "Status light",
+            "benefit": "Remote awareness"
+        },
+        "front_detergent": {
+            "feature": "Front-loading \ndetergent drawer",
+            "benefit": "Easy access & quick change"
+        },
+        "modular_compartments": {
+            "feature": "Modular compartments",
+            "benefit": "Flexible chemical use"
+        },
+        "auto_latch": {
+            "feature": "Automatic latch",
+            "benefit": "Safer to operate"
+        },
+        "cradle_start": {
+            "feature": "Cradle start",
+            "benefit": "Lower energy consumption \nLonger belt life"
+        },
+        "top_hood": {
+            "feature": "Top hood",
+            "benefit": "Easy service acccess"
+        },
+        "simple_construction": {
+            "feature": "Simple construction",
+            "benefit": "Faster repairs"
+        },
+        "accelerometer": {
+            "feature": "Accelerometer",
+            "benefit": "Smooth and efficient extraction"
+        },
+        "conical_drum_face": {
+            "feature": "Conical drum face",
+            "benefit": "Effortless unloading"
+        },
+        "minimum_spacing": {
+            "feature": "Minimum drum spacing",
+            "benefit": "Fast heating, low water consumption"
+        },
+        "clinching": {
+            "feature": "Clinching",
+            "benefit": "Sensitive wash"
+        },
+        "galvanized_chasis": {
+            "feature": "Galvanized chasis",
+            "benefit": "Long life"
+        },
+        "freestanding": {
+            "feature": "Freestanding",
+            "benefit": "No anchoring"
+        },
+        "sealed_bearings": {
+            "feature": "Sealed bearings",
+            "benefit": "No maintenance, easy replacement"
+        },
+        "teflon_ceramic": {
+            "feature": "Ceramic-coated shaft &\n Teflon™ gaskets",
+            "benefit": "Zero abrasion and long life"
+        },
+        "dosing_unit": {
+            "feature": "Dosing unit",
+            "benefit": "Ready for automation"
+        }
     }
 }

@@ -94,5 +94,79 @@
         "multi_language": "Çoklu dil desteği",
         "external_dispenser": "Yazılım üzerinden harici dozajlama ünitesi kontrölü",
         "consumption_data": "Kapsamlı tüketim verileri"
+    },
+    "twe_s": {
+        "title": {
+            "main": "TWE S serisi",
+            "sub": "Çamaşır yıkama makineleri"
+        },
+        "compact_design": {
+            "feature": "Kompakt tasarım",
+            "benefit": "Minimum alan, maksimum kapasite"
+        },
+        "status_light": {
+            "feature": "Durum ışığı",
+            "benefit": "Makinenin durumu \nher yerden görülebilir"
+        },
+        "front_detergent": {
+            "feature": "Önden deterjanlık",
+            "benefit": "Kolay erişim, \nhızlı yükleme"
+        },
+        "modular_compartments": {
+            "feature": "Modüler gözler",
+            "benefit": "Esnek kimyasal kullanımı"
+        },
+        "auto_latch": {
+            "feature": "Otomatik kilit",
+            "benefit": "Güvenli kullanım"
+        },
+        "cradle_start": {
+            "feature": "Beşik start",
+            "benefit": "Düşük elektrik tüketimi \nUzun kayış ömrü"
+        },
+        "top_hood": {
+            "feature": "Üst kapak",
+            "benefit": "Kolay servis erişimi"
+        },
+        "simple_construction": {
+            "feature": "Yalın konstrüksiyon",
+            "benefit": "Hızlı servis"
+        },
+        "accelerometer": {
+            "feature": "İvme ölçer",
+            "benefit": "Sorunsuz ve verimli sıkma"
+        },
+        "conical_drum_face": {
+            "feature": "Konik tambur ağzı",
+            "benefit": "Zahmetsiz boşaltma"
+        },
+        "minimum_spacing": {
+            "feature": "Minimum tambur aralığı",
+            "benefit": "Su tasarrufu, hızlı ısıtma"
+        },
+        "clinching": {
+            "feature": "Kenetleme sistemi",
+            "benefit": "Hassas yıkama"
+        },
+        "galvanized_chasis": {
+            "feature": "Galvanize şase",
+            "benefit": "Çok uzun ömür"
+        },
+        "freestanding": {
+            "feature": "Serbest duruş",
+            "benefit": "Ankraj gerektirmez"
+        },
+        "sealed_bearings": {
+            "feature": "Kapalı rulman yatağı",
+            "benefit": "Bakım gerektirmez, kolay sökülür"
+        },
+        "teflon_ceramic": {
+            "feature": "Seramik kaplı mil, \n Teflon™ keçe",
+            "benefit": "Uzun ömürlü, aşınmaz"
+        },
+        "dosing_unit": {
+            "feature": "Dozajlama ünitesi",
+            "benefit": "Tam otomasyona hazır"
+        }
     }
 }
