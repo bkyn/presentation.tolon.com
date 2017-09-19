@@ -44,7 +44,8 @@ let prep_template = load_document.then( () => {
 
 let switch_language = (lang) => {
     var target = document.getElementById('template');
-    target.innerHTML = Mustache.render(template,languages[lang]);
+    var context = new Mustache.Context(languages[lang], new Mustache.Context(languages[default_language]))
+    target.innerHTML = Mustache.render(template, context);
 }
 
 Promise.all(load_languages.concat([prep_template])).then(()=>{
