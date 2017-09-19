@@ -50,6 +50,11 @@ let switch_language = (lang) => {
 Promise.all(load_languages.concat([prep_template])).then(()=>{
     switch_language(default_language);
     populate_language_selector();
+    window.addEventListener('keydown', (e)=> {
+        if (e.key === "l") {
+            document.getElementById('language-selector').classList.toggle('show');
+        }
+    });
 });
 
 function populate_language_selector() {
@@ -58,6 +63,10 @@ function populate_language_selector() {
         var li = document.createElement('li');
         li.lang = language;
         li.textContent = languages[language].language.name;
+        li.addEventListener('click', (e)=>{
+            switch_language(e.target.lang);
+            document.getElementById('language-selector').classList.remove('show');
+        } );
         language_list.appendChild(li);
     }
 }
