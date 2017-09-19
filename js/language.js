@@ -51,7 +51,7 @@ Promise.all(load_languages.concat([prep_template])).then(()=>{
     switch_language(default_language);
     populate_language_selector();
     window.addEventListener('keydown', (e)=> {
-        if (e.key === "l") {
+        if (e.key === "q") {
             document.getElementById('language-selector').classList.toggle('show');
         }
     });
