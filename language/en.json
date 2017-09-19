@@ -72,5 +72,27 @@
             "feature": "Galvanized components",
             "benefit": "Long life"
         }
+    },
+    "twe3": {
+        "title": {
+            "main": "TWE/3",
+            "sub": "Wash cycle computer"
+        },
+        "overview": "Overview at a glance",
+        "running": "Comprehensive running details",
+        "qna_programming": "Question & answer programming",
+        "weighing": "Load weighing system support",
+        "mimic": "Detailed mimic diagram",
+        "parameters": "Parameter fine-tuning",
+        "diagnostics": "Integrated diagnostics",
+        "alarm_stats": "Alarm statistics",
+        "troubleshooting": "Self-servicing with troubleshooting instructions",
+        "backup": "Full-suite data backup",
+        "csv": "Import-Export programs to CSV",
+        "upgrade": "Simple software upgrade through USB",
+        "access": "Multi-user access control",
+        "multi_language": "Multiple language support",
+        "external_dispenser": "Integrated external dispenser control",
+        "consumption_data": "Comprehensive consumption data collection"
     }
 }

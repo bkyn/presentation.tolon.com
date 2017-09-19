@@ -72,5 +72,27 @@
             "feature": "Galvanize iç aksam",
             "benefit": "Uzun ömür"
         }
+    },
+    "twe3": {
+        "title": {
+            "main": "TWE/3",
+            "sub": "Çamaşır yıkama bilgisayarı"
+        },
+        "overview": "Overview at a glance",
+        "running": "Kapsamlı çalışma parametreleri",
+        "qna_programming": "Soru-cevap programlama",
+        "weighing": "Tartı sistemi desteği",
+        "mimic": "Detaylı mimik diagramı",
+        "parameters": "Açıklamalı parametre ayarları",
+        "diagnostics": "Dahili diagnostik sistemi",
+        "alarm_stats": "Alarm istatistikleri",
+        "troubleshooting": "Resimli sorun giderme kılavuzu",
+        "backup": "Veritabanı yedekleme",
+        "csv": "CSV formatında program aktarımı",
+        "upgrade": "USB girişinden kolay yazılım güncelleme",
+        "access": "Çok kullanıcılı erişim kontrolü",
+        "multi_language": "Çoklu dil desteği",
+        "external_dispenser": "Yazılım üzerinden harici dozajlama ünitesi kontrölü",
+        "consumption_data": "Kapsamlı tüketim verileri"
     }
 }

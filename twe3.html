@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="tr" manifest="/cache.manifest">
+<html lang="tr" manifest="/cache.manifest" data-langkey="twe3">
 
 <head>
   <meta charset="utf-8">
 
-  <title>Tolon TWE/3 çamaşır yıkama bilgisayarı</title>
+  <title>Tolon TWE/3</title>
 
   <meta name="description" content="Tolon Makine satış sunumu">
   <meta name="author" content="Mert Torun">
@@ -36,102 +36,106 @@
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
     <script type="text/javascript" src="lib/js/mustache.min.js"></script>
+    <script type="text/javascript" src="js/language.js"></script>
 </head>
 
 <body>
   <header>
     <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
   </header>
-  <div class="reveal">
+  <div class="reveal" id="template">
 
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
       <section>
-        <h1>TWE/3</h1>
-        <h2>Çamaşır yıkama bilgisayarı</h2>
+        <h1>{{title.main}}</h1>
+        <h2>{{title.sub}}</h2>
       </section>
 
       <section>
         <div class="twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/program_overview.png">
-          <h4>Tek ekranda program özeti</h4>
+          <img src="images/screenshots/{{language.code}}/program_overview.png">
+          <h4>{{overview}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/program_running.png">
-          <h4>Kapsamlı çalışma parametreleri</h4>
+          <img src="images/screenshots/{{language.code}}/program_running.png">
+          <h4>{{running}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/QnA_programming.png">
-          <h4>Soru-cevap programlama</h4>
+          <img src="images/screenshots/{{language.code}}/QnA_programming.png">
+          <h4>{{qna_programming}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/weighing.png">
-          <h4>Tartı sistemi desteği</h4>
+          <img src="images/screenshots/{{language.code}}/weighing.png">
+          <h4>{{weighing}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/mimic_diagram.png">
-          <h4>Detaylı mimik diagramı</h4>
+          <img src="images/screenshots/{{language.code}}/mimic_diagram.png">
+          <h4>{{mimic}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/parameters.png">
-          <h4>Açıklamalı parametre ayarları</h4>
+          <img src="images/screenshots/{{language.code}}/parameters.png">
+          <h4>{{parameters}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/manual_io.png">
-          <h4>Dahili diagnostik sistemi</h4>
+          <img src="images/screenshots/{{language.code}}/manual_io.png">
+          <h4>{{diagnostics}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/alarm_statistics.png">
-          <h4>Alarm istatistikleri</h4>
+          <img src="images/screenshots/{{language.code}}/alarm_statistics.png">
+          <h4>{{alarm_stats}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/troubleshooting.png">
-          <h4>Resimli sorun giderme kılavuzu</h4>
+          <img src="images/screenshots/{{language.code}}/troubleshooting.png">
+          <h4>{{troubleshooting}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/backup_restore.png">
-          <h4>Veritabanı yedekleme</h4>
+          <img src="images/screenshots/{{language.code}}/backup_restore.png">
+          <h4>{{backup}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/export_program.png">
-          <h4>CSV formatında program aktarımı</h4>
+          <img src="images/screenshots/{{language.code}}/export_program.png">
+          <h4>{{csv}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/usb_upgrade.png">
-          <h4>USB girişinden kolay yazılım güncelleme</h4>
+          <img src="images/screenshots/{{language.code}}/usb_upgrade.png">
+          <h4>{{upgrade}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/multi_user.png">
-          <h4>Çok kullanıcılı erişim kontrolü</h4>
+          <img src="images/screenshots/{{language.code}}/multi_user.png">
+          <h4>{{access}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/unicode_language.png">
-          <h4>Çoklu dil desteği</h4>
+          <img src="images/screenshots/{{language.code}}/unicode_language.png">
+          <h4>{{multi_language}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/external_dispenser.png">
-          <h4>Yazılım üzerinden harici dozajlama ünitesi kontrölü</h4>
+          <img src="images/screenshots/{{language.code}}/external_dispenser.png">
+          <h4>{{external_dispenser}}</h4>
         </div>
         <div class="fragment twe20 screenshot" data-zoom="1">
-          <img src="images/screenshots/tr/consumption.png">
-          <h4>Kapsamlı tüketim verileri</h4>
+          <img src="images/screenshots/{{language.code}}/consumption.png">
+          <h4>{{consumption_data}}</h4>
         </div>
       </section>
 
       <section>
         <ul>
-            <li><a href="twe-s.html">TWE S Serisi</a></li>
-            <li><a href="twe-m.html">TWE Serisi</a></li>
-            <li><a href="twe-xl.html">TWE XL Serisi</a></li>
-            <li><a href="td.html">TTD Serisi</a></li>
-            <li><a href="ttf200.html">TTF200</a></li>
+            <li><a href="twe-s.html">{{links.twe_s}}</a></li>
+            <li><a href="twe-m.html">{{links.twe_m}}</a></li>
+            <li><a href="twe-xl.html">{{links.twe_xl}}</a></li>
+            <li><a href="td.html">{{links.ttd}}</a></li>
+            <li><a href="ttf200.html">{{links.ttf200}}</a></li>
         </ul>
       </section>
 
     </div>
 
   </div>
-
+  <nav id="language-selector">
+      <ul>
+      </ul>
+  </nav>
   <script src="lib/js/head.min.js"></script>
   <script src="js/reveal.js"></script>
 
