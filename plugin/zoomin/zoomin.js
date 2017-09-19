@@ -7,12 +7,6 @@
 			event.preventDefault();
             zoomTo(event.fragment);
 		}
-
-        //hide first screenshot
-        if (event.fragment.classList.contains("screenshot") &&
-            event.fragment.previousElementSibling.classList.contains("screenshot")) {
-            event.fragment.previousElementSibling.classList.add("visible");
-        }
 	} );
     
     Reveal.addEventListener('slidechanged', function (event) {

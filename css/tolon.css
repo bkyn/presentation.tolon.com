@@ -28,13 +28,13 @@ body>header>h1{
     box-shadow: none;
 }
 
-.reveal section .screenshot {
-    left: 0;
+.reveal section.screenshot {
+    left: -50%;
     top: -600px;
     position: absolute;
 }
 
-.screenshot img {
+.reveal section.screenshot img {
     max-height: none;
     max-width: none;
     margin: 0 !important;
