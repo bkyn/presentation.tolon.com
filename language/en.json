@@ -95,9 +95,12 @@
         "external_dispenser": "Integrated external dispenser control",
         "consumption_data": "Comprehensive consumption data collection"
     },
-    "twe_s": {
+    "twe_sm": {
         "title": {
-            "main": "TWE S series",
+            "main": {
+                "s": "TWE S series",
+                "m": "TWE M series"
+            },
             "sub": "Washer extractors"
         },
         "compact_design": {
@@ -111,6 +114,10 @@
         "front_detergent": {
             "feature": "Front-loading \ndetergent drawer",
             "benefit": "Easy access & quick change"
+        },
+        "top_detergent": {
+            "feature": "Top-loading \ndetergent hopper",
+            "benefit": "Easy access"
         },
         "modular_compartments": {
             "feature": "Modular compartments",
@@ -163,6 +170,10 @@
         "teflon_ceramic": {
             "feature": "Ceramic-coated shaft &\n Teflon™ gaskets",
             "benefit": "Zero abrasion and long life"
+        },
+        "drum_shackles": {
+            "feature": "Drum shackles",
+            "benefit": "Easy repairs"
         },
         "dosing_unit": {
             "feature": "Dosing unit",

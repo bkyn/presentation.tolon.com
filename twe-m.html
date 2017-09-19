@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="tr" manifest="/cache.manifest">
+<html manifest="/cache.manifest" data-langkey="twe_sm">
 
 <head>
   <meta charset="utf-8">
 
-  <title>Tolon TWE serisi çamaşır yıkama makineleri</title>
+  <title>Tolon TWE M</title>
 
   <meta name="description" content="Tolon Makine satış sunumu">
   <meta name="author" content="Mert Torun">
@@ -18,44 +18,32 @@
   <link rel="stylesheet" href="css/theme/default.css" id="theme">
   <link rel="stylesheet" href="css/tolon.css">
 
-  <!-- For syntax highlighting -->
-  <link rel="stylesheet" href="lib/css/zenburn.css">
-
-  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-  <script>
-    if (window.location.search.match(/print-pdf/gi)) {
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = 'css/print/pdf.css';
-      document.getElementsByTagName('head')[0].appendChild(link);
-    }
-  </script>
 
   <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-  <script type="text/javascript" src="lib/js/mustache.min.js"></script>
+    <script type="text/javascript" src="lib/js/mustache.min.js"></script>
+    <script src="js/language.js" charset="utf-8"></script>
 </head>
 
 <body>
   <header>
     <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
   </header>
-  <div class="reveal">
+  <div class="reveal" id="template">
 
     <!-- Any section element inside of this container is displayed as a slide -->
-    <div class="slides">
+    <div class="slides" lang="{{language.code}}">
       <section>
-        <h1>TWE serisi</h1>
-        <h2>Çamaşır yıkama makineleri</h2>
+        <h1>{{title.main.m}}</h1>
+        <h2>{{title.sub}}</h2>
       </section>
 
       <section>
         <img src="images/twe20_yanyana.png" alt="">
         <div style="top:600px; left:250px;">
-          <h4>Kompakt tasarım</h4>
-          <h6>Minimum alan, maksimum kapasite</h6>
+          <h4>{{compact_design.feature}}</h4>
+          <h6>{{compact_design.benefit}}</h6>
         </div>
       </section>
 
@@ -64,92 +52,91 @@
 
 
         <div style="top: 410px; left: 1200px;" class="fragment" data-zoom="1.5">
-          <h4>Durum ışığı</h4>
-          <h6>Makinenin durumu<br>her yerden görülebilir</h6>
-          <img src="images/indicator-light.tr.png" class="inlay"/>
+          <h4>{{status_light.feature}}</h4>
+          <h6>{{status_light.benefit}}</h6>
+          <img src="images/indicator-light.{{language.code}}.png" class="inlay"/>
         </div>
         <div style="top: 200px; left: 800px;" class="fragment" data-zoom="4">
-          <h4>Üstten deterjanlık</h4>
-          <h6>Kolay erişim</h6>
+          <h4>{{top_detergent.feature}}</h4>
+          <h6>{{top_detergent.benefit}}</h6>
         </div>
       </section>
       <section>
         <img src="images/twe20_0001_kapak_acik.png" alt="">
         <div style="top: 720px; left: 520px;" class="fragment" data-zoom="4">
-          <h4>Otomatik kilit</h4>
-          <h6>Güvenli kullanım</h6>
+          <h4>{{auto_latch.feature}}</h4>
+          <h6>{{auto_latch.benefit}}</h6>
         </div>
         <div style="top: 820px; left: 920px;" class="fragment" data-zoom="3">
-            <h4>Beşik start</h4>
-            <h6>Düşük elektrik tüketimi</h6>
-            <h6>Uzun kayış ömrü</h6>
+            <h4>{{cradle_start.feature}}</h4>
+            <h6>{{cradle_start.benefit}}</h6>
             <p class="patent">TPE-2017-03648</p>
         </div>
         <div style="top: 210px; left: 800px;" class="fragment" data-zoom="1.5">
-          <h4>Üst kapak</h4>
-          <h6>Kolay servis erişimi</h6>
+          <h4>{{top hood.feature}}</h4>
+          <h6>{{top hood.benefit}}</h6>
         </div>
       </section>
       <section>
         <img src="images/twe20_0002_kazan.png" alt="">
         <div style="top: 410px; left: 1200px;">
-          <h4>Yalın konstrüksiyon</h4>
-          <h6>Hızlı servis</h6>
+          <h4>{{simple_construction.feature}}</h4>
+          <h6>{{simple_construction.benefit}}</h6>
         </div>
         <div style="top: 420px; left: 800px;" class="fragment" data-zoom="4">
-          <h4>İvme ölçer</h4>
-          <h6>Sorunsuz ve verimli sıkma</h6>
+          <h4>{{accelerometer.feature}}</h4>
+          <h6>{{accelerometer.benefit}}</h6>
           <p class="patent">TPE-2017-03738</p>
         </div>
         <div style="top: 720px; left: 720px;" class="fragment" data-zoom="4">
-          <h4>Konik tambur ağzı</h4>
-          <h6>Zahmetsiz boşaltma</h6>
+          <h4>{{conical_drum_face.feature}}</h4>
+          <h6>{{conical_drum_face.benefit}}</h6>
         </div>
       </section>
       <section data-flow>
         <img src="images/twe20_0003_tambur.png" alt="">
         <div style="top: 780px; left: 720px;" data-zoom="3">
-          <h4>Minimum tambur aralığı</h4>
-          <h6>Su tasarrufu, hızlı ısıtma</h6>
+          <h4>{{minimum_spacing.feature}}</h4>
+          <h6>{{minimum_spacing.benefit}}</h6>
         </div>
         <div style="top: 420px; left: 720px;" class="fragment" data-zoom="4">
-          <h4>Kenetleme sistemi</h4>
-          <h6>Hassas yıkama</h6>
+          <h4>{{clinching.feature}}</h4>
+          <h6>{{clinching.benefit}}</h6>
         </div>
       </section>
       <section data-flow>
         <img src="images/twe20_0003_sase.png" alt="">
         <div style="top: 780px; left: 720px;" data-zoom="1.5">
-          <h4>Galvanize şase</h4>
-          <h6>Çok uzun ömür</h6>
+          <h4>{{galvanized_chasis.feature}}</h4>
+          <h6>{{galvanized_chasis.benefit}}</h6>
         </div>
         <div style="top: 900px; left: 860px;" class="fragment" data-zoom="3">
-            <h4>Serbest duruş</h4>
-            <h6>Ankraj gerektirmez</h6>
+            <h4>{{freestanding.feature}}</h4>
+            <h6>{{freestanding.benefit}}</h6>
         </div>
       </section>
 
       <section>
         <img src="images/twe20_0004_arka_kazan.png" alt="">
         <div style="top: 540px; left: 720px;" class="fragment" data-zoom="3">
-          <h4>Kapalı rulman yatağı</h4>
-          <h6>Bakım gerektirmez, kolay sökülür</h6>
+          <h4>{{sealed_bearings.feature}}</h4>
+          <h6>{{sealed_bearings.benefit}}</h6>
         </div>
         <div style="top: 680px; left: 720px;" class="fragment" data-zoom="3">
-          <h4>Seramik kaplı mil, <br/>Teflon™ keçe</h4>
-          <h6>Uzun ömürlü, aşınmaz</h6>
+          <h4>{{teflon_ceramic.feature}}</h4>
+          <h6>{{teflon_ceramic.benefit}}</h6>
           <p class="patent">TPE-2017-03749</p>
         </div>
         <div style="top: 350px; left: 660px;" class="fragment" data-zoom="4">
-          <h4>Kelepçeli tambur</h4>
-          <h6>Kolay onarım</h6>
+          <h4>{{drum_shackles.feature}}</h4>
+          <h6>{{drum_shackles.benefit}}</h6>
         </div>
       </section>
       <section data-flow>
         <img src="images/twe20_0006_arka_kapali.png" alt="">
         <div style="top: 520px; left: 620px;">
-          <h4>Dozajlama ünitesi</h4>
-          <h6>Tam otomasyona hazır</h6>
+          <h4>{{dosing_unit.feature}}</h4>
+          <h6>{{dosing_unit.benefit}}</h6>
         </div>
         <div class="fragment" style="left:1000px;top:300px;width:300px">
           <img src="images/twe20_dozajlama-konnektor.jpeg" class="popup">
@@ -160,18 +147,21 @@
       </section>
       <section>
         <ul>
-            <li><a href="twe-s.html">TWE S Serisi</a></li>
-            <li><a href="twe-xl.html">TWE XL Serisi</a></li>
-            <li><a href="twe3.html">TWE/3 bilgisayar</a></li>
-            <li><a href="ttd.html">TTD Serisi</a></li>
-            <li><a href="ttf200.html">TTF200</a></li>
+            <li><a href="twe-s.html">{{links.twe_s}}</a></li>
+            <li><a href="twe-xl.html">{{links.twe_xl}}</a></li>
+            <li><a href="twe3.html">{{links.twe3}}</a></li>
+            <li><a href="ttd.html">{{links.ttd}}</a></li>
+            <li><a href="ttf200.html">{{links.ttf200}}</a></li>
         </ul>
       </section>
 
     </div>
 
   </div>
-
+  <nav id="language-selector">
+      <ul>
+      </ul>
+  </nav>
   <script src="lib/js/head.min.js"></script>
   <script src="js/reveal.js"></script>
 

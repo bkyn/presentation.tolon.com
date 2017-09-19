@@ -95,9 +95,12 @@
         "external_dispenser": "Yazılım üzerinden harici dozajlama ünitesi kontrölü",
         "consumption_data": "Kapsamlı tüketim verileri"
     },
-    "twe_s": {
+    "twe_sm": {
         "title": {
-            "main": "TWE S serisi",
+            "main": {
+                "s": "TWE S serisi",
+                "m": "TWE M serisi"
+            },
             "sub": "Çamaşır yıkama makineleri"
         },
         "compact_design": {
@@ -111,6 +114,10 @@
         "front_detergent": {
             "feature": "Önden deterjanlık",
             "benefit": "Kolay erişim, \nhızlı yükleme"
+        },
+        "top_detergent": {
+            "feature": "Üstten deterjanlık",
+            "benefit": "Kolay erişim"
         },
         "modular_compartments": {
             "feature": "Modüler gözler",
@@ -163,6 +170,10 @@
         "teflon_ceramic": {
             "feature": "Seramik kaplı mil, \n Teflon™ keçe",
             "benefit": "Uzun ömürlü, aşınmaz"
+        },
+        "drum_shackles": {
+            "feature": "Kelepçeli tambur",
+            "benefit": "Kolay onarım"
         },
         "dosing_unit": {
             "feature": "Dozajlama ünitesi",
