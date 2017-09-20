@@ -110,7 +110,6 @@ CACHE MANIFEST
 /js/reveal.js
 /js/reveal.min.js
 /js/language.js
-/lib/css/zenburn.css
 /lib/js/classList.js
 /lib/js/head.min.js
 /lib/js/html5shiv.js
