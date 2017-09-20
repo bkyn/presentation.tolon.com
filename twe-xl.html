@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="tr" manifest="/cache.manifest" >
+<html manifest="/cache.manifest" data-langkey="twe">
 
-  <head>
+<head>
     <meta charset="utf-8">
 
-    <title>Tolon TWE XL serisi çamaşır yıkama makineleri</title>
+    <title>Tolon TWE XL</title>
 
     <meta name="description" content="Tolon Makine satış sunumu">
     <meta name="author" content="Mert Torun">
@@ -18,187 +18,184 @@
     <link rel="stylesheet" href="css/theme/default.css" id="theme">
     <link rel="stylesheet" href="css/tolon.css">
 
-    <!-- For syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
-
-    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-      if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-      }
-    </script>
-
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
     <script type="text/javascript" src="lib/js/mustache.min.js"></script>
-  </head>
+    <script src="js/language.js" charset="utf-8"></script>
+</head>
 
-  <body>
-        <header>
-            <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
-        </header>
-    <div class="reveal">
+<body>
+    <header>
+        <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
+    </header>
+    <div class="reveal" id="template">
 
-      <!-- Any section element inside of this container is displayed as a slide -->
-      <div class="slides">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides" lang="{{language.code}}">
 
 
-          <section>
-              <h1>TWE XL serisi</h1>
-              <h2>Çamaşır yıkama makineleri</h2>
-          </section>
+            <section>
+                <h1>{{title.main.xl}}</h1>
+                <h2>{{title.sub}}</h2>
+            </section>
 
-          <section>
-              <img src="images/twe110_0000_on.png" alt="">
-                    <div style="top: 110px; left: 1350px;" class="fragment" data-zoom="1">
-                        <h4>Durum ışığı</h4>
-                        <h6>Makinenin durumu<br>her yerden görülebilir</h6>
-                        <img src="images/indicator-light.tr.png" class="inlay" />
-                    </div>
-          </section>
-          <section>
-              <img src="images/twe110_0001_on-kapak.png" alt="">
-              <div style="top: 420px; left: 520px;" class="fragment" data-zoom="3">
-                        <h4>Otomatik kilit</h4><h6>Güvenli kullanım</h6>
-                    </div>
-                    <div style="top: 320px; left: 760px;" class="fragment" data-zoom="4">
-                      <h4>İvme ölçer</h4>
-                      <h6>Sorunsuz ve verimli sıkma</h6>
-                      <p class="patent">TPE-2017-03738</p>
-                    </div>
-                    <div style="top: 520px; left: 760px;" class="fragment" data-zoom="4">
-                        <h4>Konik tambur ağzı</h4><h6>Kolay boşaltma</h6>
-                    </div>
-                    <div style="top: 820px; left: 760px;" class="fragment" data-zoom="4">
-                        <h4>Koruyucu tamponlar</h4><h6>Uzun ömür</h6>
-                    </div>
-          </section>
-          <section>
-              <img src="images/twe110_0003_on-yatik.png" alt="">
-              <div style="top: 510px; left: 280px;">
-                        <h4>12° eğilme</h4>
-                        <h6>Zahmetsiz boşaltma</h6>
-                    </div>
-                    <div style="top: 640px; left: 460px;" class="fragment" data-zoom="4">
-                        <h4>Bağımsız devirme<br>kumanda paneli</h4>
-                        <h6>Güvenli ve pratik</h6>
-                    </div>
-                    <div style="top: 840px; left: 500px;" class="fragment" data-zoom="1">
-                        <h4>Pnömatik devirme sistemi</h4>
-                        <h6>Bakım gerektirmez</h6>
-                    </div>
-          </section>
-          <section>
-              <img src="images/twe110_0002_on-panel.png" alt="">
-              <div style="top: 510px; left: 1300px;">
-                        <h4>Menteşeli kapaklar</h4>
-                        <h6>Kolay servis erişimi</h6>
-                    </div>
-          </section>
-          <section>
-              <img src="images/twe110_0005_yan-acik.png" alt="">
-              <div style="top: 780px; left: 270px;">
-                        <h4>Yalın konstrüksiyon</h4>
-                        <h6>Kolay ve hızlı bakım</h6>
-                    </div>
-                    <div style="top: 980px; left: 350px;" class="fragment">
-                        <h4>Termoplastik kaplama</h4>
-                        <h6>Sıfır korozyon</h6>
-                        <p class="patent">TPE-2017-03750</p>
-                    </div>
-                    <div style="top: 1000px; left: 960px;" class="fragment" data-zoom="1.5">
-                        <h4>Serbest duruş</h4>
-                        <h6>Ankraj gerektirmez</h6>
-                    </div>
-          </section>
-          <section>
-              <img src="images/twe110_0006_arka.png" alt="">
-               <div style="top: 210px; left: 1300px;" class="fragment">
-                        <h4>Yüksek kapasite girişler</h4>
-                        <h6>Hızlı su alımı ve ısıtma</h6>
-                    </div>
-                    <div style="top: 370px; left: 1070px;" class="fragment">
-                        <h4>Dozajlama girişi</h4>
-                        <h6>Otomasyona hazır</h6>
-                    </div>
-                    <div style="top: 910px; left: 900px;" class="fragment" >
-                        <h4>Geniş tahliye çıkışı</h4>
-                        <h6>Hızlı boşaltma</h6>
-                    </div>
-          </section>
-          <section data-flow>
-              <img src="images/twe110_0007_arka-acik.png" alt="">
-               <div style="top: 280px; left: 300px;">
-                    <h4>Yalın elektrik panosu</h4>
-                    <h6>Kolay bakım</h6>
+            <section>
+                <img src="images/twe110_0000_on.png" alt="">
+                <div style="top: 110px; left: 1350px;" class="fragment" data-zoom="1">
+                    <h4>{{status_light.feature}}</h4>
+                    <h6>{{status_light.benefit}}</h6>
+                    <img src="images/indicator-light.tr.png" class="inlay" />
+                </div>
+            </section>
+            <section>
+                <img src="images/twe110_0001_on-kapak.png" alt="">
+                <div style="top: 420px; left: 520px;" class="fragment" data-zoom="3">
+                    <h4>{{auto_latch.feature}}</h4>
+                    <h6>{{auto_latch.benefit}}</h6>
+                </div>
+                <div style="top: 320px; left: 760px;" class="fragment" data-zoom="4">
+                    <h4>{{accelerometer.feature}}</h4>
+                    <h6>{{accelerometer.benefit}}</h6>
+                    <p class="patent">TPE-2017-03738</p>
+                </div>
+                <div style="top: 520px; left: 760px;" class="fragment" data-zoom="4">
+                    <h4>{{conical_drum_face.feature}}</h4>
+                    <h6>{{conical_drum_face.benefit}}</h6>
+                </div>
+                <div style="top: 820px; left: 760px;" class="fragment" data-zoom="4">
+                    <h4>{{xl.bumpers.feature}}</h4>
+                    <h6>{{xl.bumpers.benefit}}</h6>
+                </div>
+            </section>
+            <section>
+                <img src="images/twe110_0003_on-yatik.png" alt="">
+                <div style="top: 510px; left: 280px;">
+                    <h4>{{xl.tilting.feature}}</h4>
+                    <h6>{{xl.tilting.benefit}}</h6>
+                </div>
+                <div style="top: 640px; left: 460px;" class="fragment" data-zoom="4">
+                    <h4>{{xl.tilting_panel.feature}}</h4>
+                    <h6>{{xl.tilting_panel.benefit}}</h6>
+                </div>
+                <div style="top: 840px; left: 500px;" class="fragment" data-zoom="1">
+                    <h4>{{xl.tilting_pneumatic.feature}}</h4>
+                    <h6>{{xl.tilting_pneumatic.benefit}}</h6>
+                </div>
+            </section>
+            <section>
+                <img src="images/twe110_0002_on-panel.png" alt="">
+                <div style="top: 510px; left: 1300px;">
+                    <h4>{{xl.hinged_panels.feature}}</h4>
+                    <h6>{{xl.hinged_panels.benefit}}</h6>
+                </div>
+            </section>
+            <section>
+                <img src="images/twe110_0005_yan-acik.png" alt="">
+                <div style="top: 780px; left: 270px;">
+                    <h4>{{simple_construction.feature}}</h4>
+                    <h6>{{simple_construction.benefit}}</h6>
+                </div>
+                <div style="top: 980px; left: 350px;" class="fragment">
+                    <h4>{{xl.thermoplastic_coating.feature}}</h4>
+                    <h6>{{xl.thermoplastic_coating.benefit}}</h6>
+                    <p class="patent">TPE-2017-03750</p>
+                </div>
+                <div style="top: 1000px; left: 960px;" class="fragment" data-zoom="1.5">
+                    <h4>{{freestanding.feature}}</h4>
+                    <h6>{{freestanding.benefit}}</h6>
+                </div>
+            </section>
+            <section>
+                <img src="images/twe110_0006_arka.png" alt="">
+                <div style="top: 210px; left: 1300px;" class="fragment">
+                    <h4>{{xl.high_capacity_inlets.feature}}</h4>
+                    <h6>{{xl.high_capacity_inlets.benefit}}</h6>
+                </div>
+                <div style="top: 370px; left: 1070px;" class="fragment">
+                    <h4>{{dosing_unit.feature}}</h4>
+                    <h6>{{dosing_unit.benefit}}</h6>
+                </div>
+                <div style="top: 910px; left: 900px;" class="fragment">
+                    <h4>{{xl.wide_discharge.feature}}</h4>
+                    <h6>{{xl.wide_discharge.benefit}}</h6>
+                </div>
+            </section>
+            <section data-flow>
+                <img src="images/twe110_0007_arka-acik.png" alt="">
+                <div style="top: 280px; left: 300px;">
+                    <h4>{{xl.simple_circuits.feature}}</h4>
+                    <h6>{{xl.simple_circuits.benefit}}</h6>
                 </div>
                 <div style="top: 400px; left: 800px;" class="fragment">
-                     <h4>Beşik start</h4>
-                     <h6>Düşük elektrik tüketimi</h6>
-                     <h6>Uzun kayış ömrü</h6>
-                     <p class="patent">TPE-2017-03648</p>
-                 </div>
-          </section>
-          <section>
-              <img src="images/twe110_0008_arka-ciplak.png" alt="">
-                    <div style="top: 400px; left: 800px;" class="fragment" >
-                        <h4>Kapalı rulman yatağı</h4>
-                        <h6>Bakım gerektirmez, kolay sökülür</h6>
-                    </div>
-                    <div style="top: 540px; left: 800px;" class="fragment" >
-                        <h4>Seramik kaplı mil</h4>
-                        <h6>Uzun ömürlü, aşınmaz</h6>
-                        <p class="patent">TPE-2017-03749</p>
-                    </div>
-          </section>
-          <section><img src="images/twe110_0000_on.png" alt=""></section>
-          <section>
-              <ul>
-                  <li><a href="twe-s.html">TWE S Serisi</a></li>
-                  <li><a href="twe-m.html">TWE Serisi</a></li>
-                  <li><a href="twe3.html">TWE/3 bilgisayar</a></li>
-                  <li><a href="ttd.html">TTD Serisi</a></li>
-                  <li><a href="ttf200.html">TTF200</a></li>
-              </ul>
-          </section>
+                    <h4>{{cradle_start.feature}}</h4>
+                    <h6>{{cradle_start.benefit}}</h6>
+                    <p class="patent">TPE-2017-03648</p>
+                </div>
+            </section>
+            <section>
+                <img src="images/twe110_0008_arka-ciplak.png" alt="">
+                <div style="top: 400px; left: 800px;" class="fragment">
+                    <h4>{{sealed_bearings.feature}}</h4>
+                    <h6>{{sealed_bearings.benefit}}</h6>
+                </div>
+                <div style="top: 540px; left: 800px;" class="fragment">
+                    <h4>{{xl.ceramic_shaft.feature}}</h4>
+                    <h6>{{xl.ceramic_shaft.benefit}}</h6>
+                    <p class="patent">TPE-2017-03749</p>
+                </div>
+            </section>
+            <section><img src="images/twe110_0000_on.png" alt=""></section>
+            <section>
+                <ul>
+                    <li><a href="twe-s.html">{{links.twe_s}}</a></li>
+                    <li><a href="twe-m.html">{{links.twe_m}}</a></li>
+                    <li><a href="twe3.html">{{links.twe3}}</a></li>
+                    <li><a href="ttd.html">{{links.ttd}}</a></li>
+                    <li><a href="ttf200.html">{{links.ttf200}}</a></li>
+                </ul>
+            </section>
 
-      </div>
+        </div>
 
     </div>
-
+    <nav id="language-selector">
+        <ul>
+        </ul>
+    </nav>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
 
     <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: false,
+            progress: false,
+            history: true,
+            center: true,
+            width: 1920,
+            height: 1200,
+            margin: 0,
 
-      // Full list of configuration options available here:
-      // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
-        controls: false,
-        progress: false,
-        history: true,
-        center: true,
-        width: 1920, height: 1200, margin: 0,
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
 
-        // Parallax scrolling
-        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-        // parallaxBackgroundSize: '2100px 900px',
-
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-          { src: 'plugin/zoomin/zoomin.js', async: true, condition: function() { return !!document.body.classList; } }
-        ]
-      });
-
+            // Optional libraries used to extend on reveal.js
+            dependencies: [{
+                src: 'plugin/zoomin/zoomin.js',
+                async: true,
+                condition: function() {
+                    return !!document.body.classList;
+                }
+            }]
+        });
     </script>
 
-  </body>
+</body>
+
 </html>

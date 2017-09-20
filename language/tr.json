@@ -95,11 +95,12 @@
         "external_dispenser": "Yazılım üzerinden harici dozajlama ünitesi kontrölü",
         "consumption_data": "Kapsamlı tüketim verileri"
     },
-    "twe_sm": {
+    "twe": {
         "title": {
             "main": {
                 "s": "TWE S serisi",
-                "m": "TWE M serisi"
+                "m": "TWE M serisi",
+                "xl": "TWE XL serisi"
             },
             "sub": "Çamaşır yıkama makineleri"
         },
@@ -178,6 +179,48 @@
         "dosing_unit": {
             "feature": "Dozajlama ünitesi",
             "benefit": "Tam otomasyona hazır"
+        },
+        "xl": {
+            "bumpers": {
+                "feature": "Koruyucu tamponlar",
+                "benefit": "Uzun ömür"
+            },
+            "tilting": {
+                "feature": "12° eğilme",
+                "benefit": "Zahmetsiz boşaltma"
+            },
+            "tilting_panel": {
+                "feature": "Bağımsız devirme\nkumanda paneli",
+                "benefit": "Güvenli ve pratik"
+            },
+            "tilting_pneumatic": {
+                "feature": "Pnömatik devirme sistemi",
+                "benefit": "Bakım gerektirmez"
+            },
+            "hinged_panels": {
+                "feature": "Menteşeli kapaklar",
+                "benefit": "Kolay servis erişimi"
+            },
+            "thermoplastic_coating": {
+                "feature": "Termoplastik kaplama",
+                "benefit": "Sıfır korozyon"
+            },
+            "high_capacity_inlets": {
+                "feature": "Yüksek kapasite girişler",
+                "benefit": "Hızlı su alımı ve ısıtma"
+            },
+            "wide_discharge": {
+                "feature": "Geniş tahliye çıkışı",
+                "benefit": "Hızlı boşaltma"
+            },
+            "simple_circuits": {
+                "feature": "Yalın elektrik panosu",
+                "benefit": "Kolay bakım"
+            },
+            "ceramic_shaft": {
+                "feature": "Seramik kaplı mil",
+                "benefit": "Uzun ömürlü, aşınmaz"
+            }
         }
     }
 }

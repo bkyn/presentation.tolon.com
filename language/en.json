@@ -95,11 +95,12 @@
         "external_dispenser": "Integrated external dispenser control",
         "consumption_data": "Comprehensive consumption data collection"
     },
-    "twe_sm": {
+    "twe": {
         "title": {
             "main": {
                 "s": "TWE S series",
-                "m": "TWE M series"
+                "m": "TWE M series",
+                "xl": "TWE XL series"
             },
             "sub": "Washer extractors"
         },
@@ -178,6 +179,48 @@
         "dosing_unit": {
             "feature": "Dosing unit",
             "benefit": "Ready for automation"
+        },
+        "xl": {
+            "bumpers": {
+                "feature": "Bumpers",
+                "benefit": "Long life"
+            },
+            "tilting": {
+                "feature": "12° tilt",
+                "benefit": "Quick & easy unloading"
+            },
+            "tilting_panel": {
+                "feature": "Independent\ntilting controls",
+                "benefit": "Safe & practical"
+            },
+            "tilting_pneumatic": {
+                "feature": "Pneumatic tilting",
+                "benefit": "No maintenance"
+            },
+            "hinged_panels": {
+                "feature": "Hinged covers",
+                "benefit": "Easy maintenance access"
+            },
+            "thermoplastic_coating": {
+                "feature": "Thermoplastic coating",
+                "benefit": "Zero corrosion"
+            },
+            "high_capacity_inlets": {
+                "feature": "High-capacity inlets",
+                "benefit": "Faster water ingress and heating"
+            },
+            "wide_discharge": {
+                "feature": "Wide discharge outlet",
+                "benefit": "Faster discharge"
+            },
+            "simple_circuits": {
+                "feature": "Simplified wiring",
+                "benefit": "Easy maintenance"
+            },
+            "ceramic_shaft": {
+                "feature": "Ceramic-coated shaft",
+                "benefit": "Low abrasion and long life"
+            }
         }
     }
 }
