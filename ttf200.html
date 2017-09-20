@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="tr" manifest="/cache.manifest" >
+<html manifest="/cache.manifest" data-langkey="ttf200">
 
 	<head>
 		<meta charset="utf-8">
 
-		<title>Tolon TTF200 Havlu katlayıcı</title>
+		<title>Tolon TTF200</title>
 
 		<meta name="description" content="Tolon Makine satış sunumu">
 		<meta name="author" content="Mert Torun">
@@ -18,74 +18,61 @@
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
 		<link rel="stylesheet" href="css/tolon.css">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
-
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 		<script type="text/javascript" src="lib/js/mustache.min.js"></script>
+		<script src="js/language.js" charset="utf-8"></script>
 	</head>
 
 	<body>
         <header>
             <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
         </header>
-		<div class="reveal">
+		<div class="reveal" id="template">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
+			<div class="slides" lang="{{language.code}}">
 
                 <section>
-                    <h1>TTF200</h1>
-                    <h2>Havlu katlayıcı</h2>
+                    <h1>{{title.main}}</h1>
+                    <h2>{{title.sub}}</h2>
                 </section>
                 <section>
                     <img src="images/ttf200_0002_conveyor.png" alt="">
                     <div style="top: 700px; left: 350px;" class="fragment">
-                        <h4>El sensörü</h4>
-                        <h6>Güvenli ve hızlı kullanım</h6>
+                        <h4>{{hand_sensor.feature}}</h4>
+                        <h6>{{hand_sensor.benefit}}</h6>
                     </div>
                     <div style="top: 900px; left: 450px;" class="fragment">
-                        <h4>Kirli havlu sepeti</h4>
-                        <h6>Yüksek hizmet kalitesi</h6>
+                        <h4>{{discard_basket.feature}}</h4>
+                        <h6>{{discard_basket.benefit}}</h6>
                     </div>
                     <div style="top: 800px; left: 1150px;" class="fragment">
-                        <h4>Raylı stoklama ünitesi</h4>
-                        <h6>Düzgün istifleme</h6>
+                        <h4>{{sliding_stacker.feature}}</h4>
+                        <h6>{{sliding_stacker.benefit}}</h6>
                     </div>
                      <div style="top: 500px; left: 450px;" class="fragment" data-zoom="4">
-                        <h4>Kolay arayüz</h4>
-                        <h6>Pratik ve hatasız kullanım</h6>
+                        <h4>{{easy_ui.feature}}</h4>
+                        <h6>{{easy_ui.benefit}}</h6>
                     </div>
                 </section>
                 <section data-flow>
                     <img src="images/ttf200_0000_open.png" alt="">
                     <div style="top: 400px; left: 500px;"  >
-                        <h4>USB ve Ethernet</h4>
-                        <h6>Otomasyon ve takip kolaylığı</h6>
+                        <h4>{{connected.feature}}</h4>
+                        <h6>{{connected.benefit}}</h6>
                     </div>
                     <div style="top: 400px; left: 1250px;" class="fragment" data-zoom="2.8" >
-                        <h4>Yalın elektrik paneli</h4>
-                        <h6>Kolay bakım</h6>
+                        <h4>{{simple_circuits.feature}}</h4>
+                        <h6>{{simple_circuits.benefit}}</h6>
                     </div>
                 </section>
                 <section>
                     <img src="images/ttf200_0003_back-open.png" alt="">
                     <div style="top: 700px; left: 750px;" class="fragment" >
-                        <h4>Yalın makine dairesi</h4>
-                        <h6>Kolay bakım</h6>
+                        <h4>{{simple_mechanism.feature}}</h4>
+                        <h6>{{simple_mechanism.benefit}}</h6>
                     </div>
                 </section>
                 <section>
@@ -94,17 +81,20 @@
 
 			    <section>
 			        <ul>
-						<li><a href="twe-s.html">TWE S Serisi</a></li>
-			            <li><a href="twe-m.html">TWE Serisi</a></li>
-			            <li><a href="twe-xl.html">TWE XL Serisi</a></li>
-						<li><a href="twe3.html">TWE/3 bilgisayar</a></li>
-			            <li><a href="ttd.html">TTD Serisi</a></li>
+						<li><a href="twe-s.html">{{links.twe_s}}</a></li>
+						<li><a href="twe-m.html">{{links.twe_m}}</a></li>
+			            <li><a href="twe-xl.html">{{links.twe_xl}}</a></li>
+			            <li><a href="twe3.html">{{links.twe3}}</a></li>
+			            <li><a href="ttd.html">{{links.ttd}}</a></li>
 			        </ul>
 			    </section>
 			</div>
 
 		</div>
-
+		<nav id="language-selector">
+	        <ul>
+	        </ul>
+	    </nav>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 

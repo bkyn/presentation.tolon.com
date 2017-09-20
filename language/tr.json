@@ -222,5 +222,39 @@
                 "benefit": "Uzun ömürlü, aşınmaz"
             }
         }
+    },
+    "ttf200":{
+        "title": {
+            "main": "TTF200",
+            "sub": "Havlu katlayıcı"
+        },
+        "hand_sensor": {
+            "feature": "El sensörü",
+            "benefit": "Güvenli ve hızlı kullanım"
+        },
+        "discard_basket": {
+            "feature": "Kirli havlu sepeti",
+            "benefit": "Yüksek hizmet kalitesi"
+        },
+        "sliding_stacker": {
+            "feature": "Raylı stoklama ünitesi",
+            "benefit": "Düzgün istifleme"
+        },
+        "easy_ui": {
+            "feature": "Kolay arayüz",
+            "benefit": "Pratik ve hatasız kullanım"
+        },
+        "connected": {
+            "feature": "USB ve Ethernet",
+            "benefit": "Otomasyon ve takip kolaylığı"
+        },
+        "simple_circuits": {
+            "feature": "Yalın elektrik paneli",
+            "benefit": "Kolay bakım"
+        },
+        "simple_mechanism": {
+            "feature": "Yalın makine dairesi",
+            "benefit": "Kolay bakım"
+        }
     }
 }

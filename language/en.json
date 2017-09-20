@@ -222,5 +222,39 @@
                 "benefit": "Low abrasion and long life"
             }
         }
+    },
+    "ttf200": {
+        "title": {
+            "main": "TTF200",
+            "sub": "Towel folder"
+        },
+        "hand_sensor": {
+            "feature": "Hand sensor switch",
+            "benefit": "Safe and quick operation"
+        },
+        "discard_basket": {
+            "feature": "Dirty towel basket",
+            "benefit": "Better service quality"
+        },
+        "sliding_stacker": {
+            "feature": "Sliding stacker",
+            "benefit": "Better stacking"
+        },
+        "easy_ui": {
+            "feature": "Easy interface",
+            "benefit": "Practical and error-free operation"
+        },
+        "connected": {
+            "feature": "USB & Ethernet",
+            "benefit": "Remote tracking and automation"
+        },
+        "simple_circuits": {
+            "feature": "Simplified wiring",
+            "benefit": "Easy maintenance"
+        },
+        "simple_mechanism": {
+            "feature": "Simplified mechanism",
+            "benefit": "Easy maintenance"
+        }
     }
 }
