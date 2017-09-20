@@ -60,3 +60,11 @@
 
 * Added TWE-S series washer-extractors, Turkish version.
 * Added patent application number for the front-loading detergent magazine
+
+# v32
+2017-09-20
+
+* New template based structure for instant language switching.
+  Press `Q` to instantly switch to one of the supported languages.
+* Get in touch to translate to your preferred language
+* This changelog will only be in English from now on
