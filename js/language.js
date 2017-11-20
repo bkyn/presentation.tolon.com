@@ -56,6 +56,7 @@ Promise.all(load_languages.concat([prep_template])).then(()=>{
             document.getElementById('language-selector').classList.toggle('show');
         }
     });
+    document.getElementById('language-selector').classList.toggle('show');
 });
 
 function populate_language_selector() {
