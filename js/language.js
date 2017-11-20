@@ -68,6 +68,7 @@ function populate_language_selector() {
         li.addEventListener('click', (e)=>{
             switch_language(e.target.lang);
             document.getElementById('language-selector').classList.remove('show');
+            e.view.document.body.webkitRequestFullScreen()
         } );
         language_list.appendChild(li);
     }
