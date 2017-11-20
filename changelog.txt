@@ -68,3 +68,8 @@
   Press `Q` to instantly switch to one of the supported languages.
 * Get in touch to translate to your preferred language
 * This changelog will only be in English from now on
+
+# v33
+2017-11-20
+
+* Language selection on presentation start, and automatic fullscreen on select.
