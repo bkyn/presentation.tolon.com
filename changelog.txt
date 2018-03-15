@@ -73,3 +73,8 @@
 2017-11-20
 
 * Language selection on presentation start, and automatic fullscreen on select.
+
+# v34
+2018-03-15
+
+* French language (still needs french screenshots for TWE/3)

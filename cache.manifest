@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v33
+# v34
 
 /index.html
 
@@ -103,6 +103,23 @@ CACHE MANIFEST
 /images/screenshots/tr/usb_upgrade.png
 /images/screenshots/tr/weighing.png
 
+/images/screenshots/fr/QnA_programming.png
+/images/screenshots/fr/alarm_statistics.png
+/images/screenshots/fr/backup_restore.png
+/images/screenshots/fr/consumption.png
+/images/screenshots/fr/export_program.png
+/images/screenshots/fr/external_dispenser.png
+/images/screenshots/fr/manual_io.png
+/images/screenshots/fr/mimic_diagram.png
+/images/screenshots/fr/multi_user.png
+/images/screenshots/fr/parameters.png
+/images/screenshots/fr/program_overview.png
+/images/screenshots/fr/program_running.png
+/images/screenshots/fr/troubleshooting.png
+/images/screenshots/fr/unicode_language.png
+/images/screenshots/fr/usb_upgrade.png
+/images/screenshots/fr/weighing.png
+
 /css/reveal.css
 /css/reveal.min.css
 /css/tolon.css
@@ -117,6 +134,7 @@ CACHE MANIFEST
 
 /language/en.json
 /language/tr.json
+/language/fr.json
 
 NETWORK:
 
