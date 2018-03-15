@@ -96,6 +96,7 @@ body>header>h1{
 
 .reveal h6 {font-size: .5em;}
 .reveal h5 {font-size: .75em;}
+.reveal h4 {max-width: 12em;}
 
 .reveal section > div {
     position: absolute;
