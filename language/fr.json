@@ -1,0 +1,260 @@
+{
+    "language": {
+        "code": "fr",
+        "name": "Français"
+    },
+    "links": {
+        "twe_s": "Série TWE S",
+        "twe_m": "Série TWE M",
+        "twe_xl": "Série TWE XL",
+        "twe3": "TWE/3 ordinateur",
+        "ttd": "Série TTD",
+        "ttf200": "TTF200"
+    },
+    "td": {
+        "title": {
+            "main": "Série TTD",
+            "sub": "Séchoirs rotatif"
+        },
+        "easy_ui": {
+            "feature": "Interface simple",
+            "benefit": "Opération rapide et sans erreur"
+        },
+        "status_light": {
+            "feature": "Voyant d’état ",
+            "benefit": "Consience distant "
+        },
+        "sliding_door": {
+            "feature": "Large trappe, portes coulissantes ",
+            "benefit": "Chargement et déchargement facile "
+        },
+        "wide_filter_door": {
+            "feature": "Large porte de filtre",
+            "benefit": "Néttoyage facile "
+        },
+        "high_volume_filter": {
+            "feature": "Filtre à haute capacité ",
+            "benefit": "Haute efficacité à long terme"
+        },
+        "hinged_panels": {
+            "feature": "Couvercles à charnière",
+            "benefit": "Accès facile pour entretien"
+        },
+        "compact_design": {
+            "feature": "Design compact",
+            "benefit": "Empreinte minimum, capacité maximum, entretien facile"
+        },
+        "standard_exhaust": {
+            "feature": "Raccord d'échappement standard",
+            "benefit": "installation facile"
+        },
+        "quick_access_door": {
+            "feature": "Porte d'accès facile, poulie visible ",
+            "benefit": "maintenance préventive instantanée"
+        },
+        "document_sleeve": {
+            "feature": "Pochette de document",
+            "benefit": "Maintenance sans erreur "
+        },
+        "simple_circuits": {
+            "feature": "Câblage simplifié",
+            "benefit": "Entretien facile"
+        },
+        "vacuum_flap": {
+            "feature": "Volet d'aspiration",
+            "benefit": "efficacité soutenue"
+        },
+        "full_insulation": {
+            "feature": "İsolation entière",
+            "benefit": "économie d'énergie"
+        },
+        "galvanized_frame": {
+            "feature": "Composants galvanisés",
+            "benefit": "Longue vie"
+        }
+    },
+    "twe3": {
+        "title": {
+            "main": "TWE/3",
+            "sub": "Ordinateur de cycle de lavage "
+        },
+        "overview": "Aperçu en un coup d'œil",
+        "running": "Détails de fonctionnement complets",
+        "qna_programming": "Programmation en format question-réponse",
+        "weighing": "Support de pesée de charge ",
+        "mimic": "Schéma mimique détaillé",
+        "parameters": "Réglage fin de parametre",
+        "diagnostics": "Diagnostic intégré",
+        "alarm_stats": "Statistique des alarmes ",
+        "troubleshooting": "Self service grace aux instructions de dépannage",
+        "backup": "Sauvegarde de données complète",
+        "csv": "Importation-exportation des programs an CSV",
+        "upgrade": "Mise à jour logicielle facile via USB ",
+        "access": "Control d’acces multi-utlisateur ",
+        "multi_language": "Support de plusieurs langues",
+        "external_dispenser": "Commande de distributeur externe intégrée",
+        "consumption_data": "Données complètes sur la consommation"
+    },
+    "twe": {
+        "title": {
+            "main": {
+                "s": "Série TWE S",
+                "m": "Série TWE M",
+                "xl": "Série TWE XL"
+            },
+            "sub": "laveuse-essoreuse"
+        },
+        "compact_design": {
+            "feature": "Design compact",
+            "benefit": "Empreinte minimum, capacité maximum"
+        },
+        "status_light": {
+            "feature": "Voyant d’état ",
+            "benefit": "Consience distant "
+        },
+        "front_detergent": {
+            "feature": "Tiroir à détergent frontal",
+            "benefit": "Accès facile & échange rapide "
+        },
+        "top_detergent": {
+            "feature": "Trémie de détergent à chargement par le haut",
+            "benefit": "Accès Facile"
+        },
+        "modular_compartments": {
+            "feature": "Compartments modulaires ",
+            "benefit": "Flexibilité d’usage détergent en poudre ou liquide"
+        },
+        "auto_latch": {
+            "feature": "Le loquet automatique ",
+            "benefit": "Plus sûr à opérer"
+        },
+        "cradle_start": {
+            "feature": "Démarrage berceau",
+            "benefit": "Moins consommation d’énergie, la vie de ceinture plus long"
+        },
+        "top_hood": {
+            "feature": "Couvercle supérieur",
+            "benefit": "Accès facile pour service"
+        },
+        "simple_construction": {
+            "feature": "Construction simple",
+            "benefit": "Réparation plus rapide"
+        },
+        "accelerometer": {
+            "feature": "Accéléromètre",
+            "benefit": "Extraction douce et éfficace"
+        },
+        "conical_drum_face": {
+            "feature": "Façade conique du tambour",
+            "benefit": "Déchargement facile"
+        },
+        "minimum_spacing": {
+            "feature": "Espacement minimum de tambour",
+            "benefit": "Chauffage rapide, consommation d’eau basse"
+        },
+        "clinching": {
+            "feature": "Clinchage",
+            "benefit": "Lavage sensible"
+        },
+        "galvanized_chasis": {
+            "feature": "Châssis galvanisé",
+            "benefit": "Longue vie "
+        },
+        "freestanding": {
+            "feature": "Autoportant ",
+            "benefit": "Sans ancrage"
+        },
+        "sealed_bearings": {
+            "feature": "Roulements scellés",
+            "benefit": "Sans maintenance, remplacement facile"
+        },
+        "teflon_ceramic": {
+            "feature": "Arbre avec revêtment céramique & joint Teflon™",
+            "benefit": "Zéro Abrasion et vie longue "
+        },
+        "drum_shackles": {
+            "feature": "Manilles de tambour",
+            "benefit": "Réparations simples "
+        },
+        "dosing_unit": {
+            "feature": "Unité de dosage",
+            "benefit": "Prêt a l’automatisation"
+        },
+        "xl": {
+            "bumpers": {
+                "feature": "Pare-chocs ",
+                "benefit": "Longue vie"
+            },
+            "tilting": {
+                "feature": "12° inclinaison",
+                "benefit": "Déchargement rapide et facile"
+            },
+            "tilting_panel": {
+                "feature": "Commande indépendant d’inclinaison",
+                "benefit": "Sûr et pratique"
+            },
+            "tilting_pneumatic": {
+                "feature": "İnclinaison pneumatique",
+                "benefit": "Sans entretien"
+            },
+            "hinged_panels": {
+                "feature": "Couvercle à charnière",
+                "benefit": "Accès facile pour entretien"
+            },
+            "thermoplastic_coating": {
+                "feature": "Revêtement thermoplastique",
+                "benefit": "zéro corrosion"
+            },
+            "high_capacity_inlets": {
+                "feature": "Entrées de grande capacité",
+                "benefit": "Entrées et chauffage d’eau plus rapide"
+            },
+            "wide_discharge": {
+                "feature": "Large sortie de décharge",
+                "benefit": "Déchargement plus rapide"
+            },
+            "simple_circuits": {
+                "feature": "câblage simplifié",
+                "benefit": "Entretien facile"
+            },
+            "ceramic_shaft": {
+                "feature": "Arbre avec revêtment céramique ",
+                "benefit": "Abrasion basse et vie longue "
+            }
+        }
+    },
+    "ttf200": {
+        "title": {
+            "main": "TTF200",
+            "sub": "Plieuse"
+        },
+        "hand_sensor": {
+            "feature": "İnter capteur de main",
+            "benefit": "Opération sûre et rapide"
+        },
+        "discard_basket": {
+            "feature": "Panier à linge sale",
+            "benefit": "Meilleure qualité de service"
+        },
+        "sliding_stacker": {
+            "feature": "Empileur coulissant",
+            "benefit": "mieux empiler"
+        },
+        "easy_ui": {
+            "feature": "Interface simple ",
+            "benefit": "Opération pratique et sans erreur"
+        },
+        "connected": {
+            "feature": "USB & Ethernet",
+            "benefit": "suivi à distance et automatisation"
+        },
+        "simple_circuits": {
+            "feature": "Câblage simplifié",
+            "benefit": "Entretien facile"
+        },
+        "simple_mechanism": {
+            "feature": "Mécanisme simplifié",
+            "benefit": "Entretien facile "
+        }
+    }
+}
