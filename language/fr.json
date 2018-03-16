@@ -25,7 +25,7 @@
             "benefit": "Consience distant "
         },
         "sliding_door": {
-            "feature": "Large trappe, portes coulissantes ",
+            "feature": "Ouverture porte large, portes coulissantes",
             "benefit": "Chargement et déchargement facile "
         },
         "wide_filter_door": {
@@ -83,16 +83,16 @@
         "qna_programming": "Programmation en format question-réponse",
         "weighing": "Support de pesée de charge ",
         "mimic": "Schéma mimique détaillé",
-        "parameters": "Réglage fin de parametre",
+        "parameters": "Réglage fin des paramètres",
         "diagnostics": "Diagnostic intégré",
         "alarm_stats": "Statistique des alarmes ",
-        "troubleshooting": "Self service grace aux instructions de dépannage",
+        "troubleshooting": "Self service grâce aux instructions de dépannage",
         "backup": "Sauvegarde de données complète",
-        "csv": "Importation-exportation des programs an CSV",
+        "csv": "Importation-exportation des programmes en fiche CSV",
         "upgrade": "Mise à jour logicielle facile via USB ",
-        "access": "Control d’acces multi-utlisateur ",
+        "access": "Control d’acces multi-utilisateur ",
         "multi_language": "Support de plusieurs langues",
-        "external_dispenser": "Commande de distributeur externe intégrée",
+        "external_dispenser": "Commande des distributeurs de lessives externes intégrée",
         "consumption_data": "Données complètes sur la consommation"
     },
     "twe": {
@@ -113,11 +113,11 @@
             "benefit": "Consience distant "
         },
         "front_detergent": {
-            "feature": "Tiroir à détergent frontal",
+            "feature": "Tiroir à détergents frontal",
             "benefit": "Accès facile & échange rapide "
         },
         "top_detergent": {
-            "feature": "Trémie de détergent à chargement par le haut",
+            "feature": "Bac à lessives dans le panneau supérieur",
             "benefit": "Accès Facile"
         },
         "modular_compartments": {
@@ -125,12 +125,12 @@
             "benefit": "Flexibilité d’usage détergent en poudre ou liquide"
         },
         "auto_latch": {
-            "feature": "Le loquet automatique ",
+            "feature": "La serrure automatique ",
             "benefit": "Plus sûr à opérer"
         },
         "cradle_start": {
             "feature": "Démarrage berceau",
-            "benefit": "Moins consommation d’énergie, la vie de ceinture plus long"
+            "benefit": "Moins consommation d’énergie, la vie des courroies plus longue"
         },
         "top_hood": {
             "feature": "Couvercle supérieur",
@@ -206,19 +206,19 @@
                 "benefit": "zéro corrosion"
             },
             "high_capacity_inlets": {
-                "feature": "Entrées de grande capacité",
-                "benefit": "Entrées et chauffage d’eau plus rapide"
+                "feature": "Vannes d'entrées de grande capacité",
+                "benefit": "Entrée d'eau et chauffage plus rapide"
             },
             "wide_discharge": {
-                "feature": "Large sortie de décharge",
+                "feature": "Vanne de vidange large",
                 "benefit": "Déchargement plus rapide"
             },
             "simple_circuits": {
-                "feature": "câblage simplifié",
+                "feature": "Câblage simplifié",
                 "benefit": "Entretien facile"
             },
             "ceramic_shaft": {
-                "feature": "Arbre avec revêtment céramique ",
+                "feature": "Arbre avec revêtement céramique ",
                 "benefit": "Abrasion basse et vie longue "
             }
         }
@@ -229,7 +229,7 @@
             "sub": "Plieuse"
         },
         "hand_sensor": {
-            "feature": "İnter capteur de main",
+            "feature": "Commande à senseur de main",
             "benefit": "Opération sûre et rapide"
         },
         "discard_basket": {
@@ -237,8 +237,8 @@
             "benefit": "Meilleure qualité de service"
         },
         "sliding_stacker": {
-            "feature": "Empileur coulissant",
-            "benefit": "mieux empiler"
+            "feature": "Empileur glissant",
+            "benefit": "Mieux empiler"
         },
         "easy_ui": {
             "feature": "Interface simple ",
