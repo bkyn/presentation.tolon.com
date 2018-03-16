@@ -78,3 +78,8 @@
 2018-03-15
 
 * French language (still needs french screenshots for TWE/3)
+
+# v35
+2018-03-16
+
+* French language revisions and fixes
