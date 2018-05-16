@@ -83,3 +83,8 @@
 2018-03-16
 
 * French language revisions and fixes
+
+# v36
+2018-05-16
+
+* Spanish language available (needs Spanish screenshots)

@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v35
+# v36
 
 /index.html
 
@@ -68,6 +68,8 @@ CACHE MANIFEST
 
 /images/indicator-light.tr.png
 /images/indicator-light.en.png
+/images/indicator-light.fr.png
+/images/indicator-light.es.png
 
 /images/screenshots/en/QnA_programming.png
 /images/screenshots/en/alarm_statistics.png
@@ -120,6 +122,23 @@ CACHE MANIFEST
 /images/screenshots/fr/usb_upgrade.png
 /images/screenshots/fr/weighing.png
 
+/images/screenshots/es/QnA_programming.png
+/images/screenshots/es/alarm_statistics.png
+/images/screenshots/es/backup_restore.png
+/images/screenshots/es/consumption.png
+/images/screenshots/es/export_program.png
+/images/screenshots/es/external_dispenser.png
+/images/screenshots/es/manual_io.png
+/images/screenshots/es/mimic_diagram.png
+/images/screenshots/es/multi_user.png
+/images/screenshots/es/parameters.png
+/images/screenshots/es/program_overview.png
+/images/screenshots/es/program_running.png
+/images/screenshots/es/troubleshooting.png
+/images/screenshots/es/unicode_language.png
+/images/screenshots/es/usb_upgrade.png
+/images/screenshots/es/weighing.png
+
 /css/reveal.css
 /css/reveal.min.css
 /css/tolon.css
@@ -135,6 +154,7 @@ CACHE MANIFEST
 /language/en.json
 /language/tr.json
 /language/fr.json
+/language/es.json
 
 NETWORK:
 
