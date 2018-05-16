@@ -1,6 +1,6 @@
 var languages = {};
 var default_language = "en";
-var load_languages = ['en', 'tr', 'fr']
+var load_languages = ['en', 'tr', 'fr', 'es']
 for (var i=0; i < load_languages.length; i++) {
     let language = load_languages[i];
     load_languages[i] = fetch(`language/${language}.json`)

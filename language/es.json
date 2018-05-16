@@ -1,0 +1,260 @@
+{
+    "language": {
+        "code": "es",
+        "name": "Español"
+    },
+    "links": {
+        "twe_s": "TWE Serie S",
+        "twe_m": "TWE Serie M",
+        "twe_xl": "TWE Serie XL",
+        "twe3": "Programador TWE/3",
+        "ttd": "TTD Series",
+        "ttf200": "TTF200"
+    },
+    "td": {
+        "title": {
+            "main": "TTD Series",
+            "sub": "Secadores Rotativos"
+        },
+        "easy_ui": {
+            "feature": "Facilidad de uso",
+            "benefit": "Operacion rapida y sin errores"
+        },
+        "status_light": {
+            "feature": "Luz de estado",
+            "benefit": "Comprobación remota del estado"
+        },
+        "sliding_door": {
+            "feature": "Amplio acceso, doble puerta corredera",
+            "benefit": "Facilidad de carga y descarga"
+        },
+        "wide_filter_door": {
+            "feature": "Amplia puerta de acceso al filtro",
+            "benefit": "Fácil limpieza"
+        },
+        "high_volume_filter": {
+            "feature": "Filtro de gran superficie",
+            "benefit": "Alta eficiencia duradera sin limpiar filtro"
+        },
+        "hinged_panels": {
+            "feature": "Paneles practicables con visagras",
+            "benefit": "Paneles practicables con visagras"
+        },
+        "compact_design": {
+            "feature": "diseño compacto",
+            "benefit": "diseño compacto"
+        },
+        "standard_exhaust": {
+            "feature": "salida de vahos estandar",
+            "benefit": "salida de vahos estandar"
+        },
+        "quick_access_door": {
+            "feature": "Puerta de acceso rápido",
+            "benefit": "Puerta de acceso rápido"
+        },
+        "document_sleeve": {
+            "feature": "Cajón para la documentación",
+            "benefit": "Mantenimiento sin errores\n"
+        },
+        "simple_circuits": {
+            "feature": "Cableado simplificado",
+            "benefit": "Facilidad de mantenimiento"
+        },
+        "vacuum_flap": {
+            "feature": "Trampilla de extracción",
+            "benefit": "Eficiencia constante"
+        },
+        "full_insulation": {
+            "feature": "Aislamiento completo",
+            "benefit": "Ahorro energético"
+        },
+        "galvanized_frame": {
+            "feature": "Componentes galvanizados",
+            "benefit": "Larga vida util"
+        }
+    },
+    "twe3": {
+        "title": {
+            "main": "TWE/3",
+            "sub": "Programador lavadora"
+        },
+        "overview": "Visualización completa y rapida",
+        "running": "Detalles de funcionamiento",
+        "qna_programming": "Programación Pregunta-Respuesta",
+        "weighing": "Soporte sistema de pesaje integrado",
+        "mimic": "Diagrama de funcionamiento en tiempo real",
+        "parameters": "Parametros de ajuste fino",
+        "diagnostics": "Diagnosis de averias integrado",
+        "alarm_stats": "Estadísticas de alarmas",
+        "troubleshooting": "Auto-reparación con solucionador de problemas",
+        "backup": "Copia de seguridad completa",
+        "csv": "Importación y exportación de programas en CSV",
+        "upgrade": "Actualización de software simple mediante USB",
+        "access": "Control de acceso multi usuario",
+        "multi_language": "Soporte multi-lenguaje",
+        "external_dispenser": "Control de dosificación externa",
+        "consumption_data": "Estadísticas de datos de consumos"
+    },
+    "twe": {
+        "title": {
+            "main": {
+                "s": "TWE Serie S",
+                "m": "TWE Serie M",
+                "xl": "TWE Serie XL"
+            },
+            "sub": "Lavadoras Centrifugadoras"
+        },
+        "compact_design": {
+            "feature": "Diseño compacto",
+            "benefit": "Minimo espacio, maxima capacidad"
+        },
+        "status_light": {
+            "feature": "Luz de estado",
+            "benefit": "Comprobación remota del estado"
+        },
+        "front_detergent": {
+            "feature": "Cajón de dosificación de acceso frontal",
+            "benefit": "Facil acceso y cambio rapido"
+        },
+        "top_detergent": {
+            "feature": "Cajon de dosificación de carga superior",
+            "benefit": "Facil acceso"
+        },
+        "modular_compartments": {
+            "feature": "Compartimentos modulares",
+            "benefit": "Flexibilidad uso quimicos"
+        },
+        "auto_latch": {
+            "feature": "Cierre automatico",
+            "benefit": "Mayor precisión de cierre"
+        },
+        "cradle_start": {
+            "feature": "Arranque oscilante",
+            "benefit": "Menor consumo energético\nVida de las correas de transmisión mas larga"
+        },
+        "top_hood": {
+            "feature": "Tapa superior",
+            "benefit": "Facilidad de acceso mantenimiento"
+        },
+        "simple_construction": {
+            "feature": "Construcción simple",
+            "benefit": "Reparaciones mas rapidas"
+        },
+        "accelerometer": {
+            "feature": "Acelerómetro",
+            "benefit": "Extracción suave y eficaz"
+        },
+        "conical_drum_face": {
+            "feature": "Frontal del bombo cónico",
+            "benefit": "Facilidad de descarga"
+        },
+        "minimum_spacing": {
+            "feature": "Minimo espacio entre bombo y envolvente",
+            "benefit": "Calentamiento rapido, menor consumo de agua"
+        },
+        "clinching": {
+            "feature": "Sin soldaduras",
+            "benefit": "Sensibilidad de lavado"
+        },
+        "galvanized_chasis": {
+            "feature": "Chasis galvanizado",
+            "benefit": "Larga vida útil"
+        },
+        "freestanding": {
+            "feature": "Flotante",
+            "benefit": "No requiere anclaje"
+        },
+        "sealed_bearings": {
+            "feature": "Rodamientos Sellados",
+            "benefit": "Libre de mantenimiento, facilidad de reemplazo"
+        },
+        "teflon_ceramic": {
+            "feature": "Eje con recubrimiento cerámico y junta de Teflon™",
+            "benefit": "SIN desgaste y larga vida util"
+        },
+        "drum_shackles": {
+            "feature": "Bridas fijación tambor",
+            "benefit": "Facilidad reparaciones"
+        },
+        "dosing_unit": {
+            "feature": "Dosifiación externa",
+            "benefit": "Preparada para dosificación automatica"
+        },
+        "xl": {
+            "bumpers": {
+                "feature": "Parachoques",
+                "benefit": "Larga vida util"
+            },
+            "tilting": {
+                "feature": "Tilt (inclinación) 12°",
+                "benefit": "Descarga rapida y sin esfuerzo"
+            },
+            "tilting_panel": {
+                "feature": "Control del volquete independiente",
+                "benefit": "Seguro y practico"
+            },
+            "tilting_pneumatic": {
+                "feature": "Accionamiento neumatico del inclinación",
+                "benefit": "Libre de mantenimiento"
+            },
+            "hinged_panels": {
+                "feature": "Tapas de acceso con visagras",
+                "benefit": "Facilidad de acceso mantenimiento"
+            },
+            "thermoplastic_coating": {
+                "feature": "Recubrimiento Termo-plástico",
+                "benefit": "Cero Corrosión"
+            },
+            "high_capacity_inlets": {
+                "feature": "Entradas de agua y vapor de alta capacidad",
+                "benefit": "Entrada de agua y calentamiento mas rapido"
+            },
+            "wide_discharge": {
+                "feature": "Amplia puerta de descarga",
+                "benefit": "Descarga más rapida"
+            },
+            "simple_circuits": {
+                "feature": "Cableado simplificado",
+                "benefit": "Facilidad de mantenimiento"
+            },
+            "ceramic_shaft": {
+                "feature": "Eje con recubrimiento cerámico",
+                "benefit": "Sin desgaste. Máxima vida util"
+            }
+        }
+    },
+    "ttf200": {
+        "title": {
+            "main": "TTF200",
+            "sub": "Plegador de toallas"
+        },
+        "hand_sensor": {
+            "feature": "Detección de manos",
+            "benefit": "Operación segura y rápida"
+        },
+        "discard_basket": {
+            "feature": "Cesta recogida prendas sucias",
+            "benefit": "Mejor calidad de servicio"
+        },
+        "sliding_stacker": {
+            "feature": "Apilador deslizante",
+            "benefit": "Mejor calidad de apilado"
+        },
+        "easy_ui": {
+            "feature": "Facilidad de uso",
+            "benefit": "Operacion facil y sin errores"
+        },
+        "connected": {
+            "feature": "USB y Ethernet",
+            "benefit": "Mantenimiento y control remoto"
+        },
+        "simple_circuits": {
+            "feature": "Cableado simplificado",
+            "benefit": "Facilidad de mantenimiento"
+        },
+        "simple_mechanism": {
+            "feature": "Mecanica muy simple",
+            "benefit": "Facilidad de mantenimiento"
+        }
+    }
+}
