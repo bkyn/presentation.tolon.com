@@ -88,3 +88,9 @@
 2018-05-16
 
 * Spanish language available (needs Spanish screenshots)
+
+# v37
+2018-05-30
+
+* New presentation for TTD110 (pending translations: fr, es)
+* Ending link lists now contain every presentation
