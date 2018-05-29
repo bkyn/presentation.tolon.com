@@ -96,7 +96,10 @@ body>header>h1{
 
 .reveal h6 {font-size: .5em;}
 .reveal h5 {font-size: .75em;}
-.reveal h4 {max-width: 12em;}
+.reveal h4 {max-width: 10em;}
+.reveal .fragment[data-zoom="5"] h4 {
+    max-width: 5em;
+}
 
 .reveal section > div {
     position: absolute;
