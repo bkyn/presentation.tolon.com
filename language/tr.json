@@ -9,12 +9,14 @@
         "twe_xl": "TWE XL Serisi",
         "twe3": "TWE/3 bilgisayar",
         "ttd": "TTD Serisi",
-        "ttf200": "TTF200"
+        "ttf200": "TTF200",
+        "ttd110": "TTD110"
     },
     "td": {
         "title": {
             "main": "TTD serisi",
-            "sub": "Çamaşır kurutucular"
+            "sub": "Çamaşır kurutucular",
+            "ttd110": "TTD110"
         },
         "easy_ui": {
             "feature": "Kolay arayüz",
@@ -71,6 +73,34 @@
         "galvanized_frame": {
             "feature": "Galvanize iç aksam",
             "benefit": "Uzun ömür"
+        },
+        "large_volume": {
+            "feature": "Geniş hacim",
+            "benefit": "Tek döngüde ekstra kapasite"
+        },
+        "custom_coils": {
+            "feature": "Özel serpantin",
+            "benefit": "Yüksek verimlilik"
+        },
+        "cooldown": {
+            "feature": "Soğutma",
+            "benefit": "Hızlı döngü"
+        },
+        "infrared": {
+            "feature": "Kızılötesi sensör",
+            "benefit": "Enerji tasarrufu"
+        },
+        "upgraded_exhaust": {
+            "feature": "Geliştirilmiş baca",
+            "benefit": "Hızlı hava tahliyesi"
+        },
+        "custom_burner": {
+            "feature": "Özel brulör",
+            "benefit": "Mükemmel yanma"
+        },
+        "sprinkler": {
+            "feature": "Duşlama sistemi",
+            "benefit": "Yangına anında müdahale"
         }
     },
     "twe3": {
@@ -223,7 +253,7 @@
             }
         }
     },
-    "ttf200":{
+    "ttf200": {
         "title": {
             "main": "TTF200",
             "sub": "Havlu katlayıcı"
