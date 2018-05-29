@@ -9,11 +9,13 @@
         "twe_xl": "TWE XL Series",
         "twe3": "TWE/3 computer",
         "ttd": "TTD Series",
+        "ttd110": "TTD110",
         "ttf200": "TTF200"
     },
     "td": {
         "title": {
             "main": "TTD series",
+            "ttd110": "TTD110",
             "sub": "Tumble dryers"
         },
         "easy_ui": {
@@ -28,6 +30,10 @@
             "feature": "Wide hatch, sliding doors",
             "benefit": "Easy loading & unloading"
         },
+        "large_volume": {
+            "feature": "Large volume",
+            "benefit": "Extra capacity in a single cycle"
+        },
         "wide_filter_door": {
             "feature": "Wide filter door",
             "benefit": "Easy cleaning"
@@ -35,6 +41,18 @@
         "high_volume_filter": {
             "feature": "High-volume filter",
             "benefit": "Long-running high efficiency"
+        },
+        "custom_coils": {
+            "feature": "Custom steam coils",
+            "benefit": "High efficiency"
+        },
+        "cooldown": {
+            "feature": "Cooldown",
+            "benefit": "Quick cycle time"
+        },
+        "infrared": {
+            "feature": "Infrared sensor",
+            "benefit": "Energy savings"
         },
         "hinged_panels": {
             "feature": "Hinged covers",
@@ -47,6 +65,18 @@
         "standard_exhaust": {
             "feature": "Standard exhaust fitting",
             "benefit": "Easy setup"
+        },
+        "upgraded_exhaust": {
+            "feature": "Upgraded exhaust",
+            "benefit": "Quick discharge"
+        },
+        "custom_burner": {
+            "feature": "Custom burner",
+            "benefit": "Perfect burn"
+        },
+        "sprinkler": {
+            "feature": "Sprinkler system",
+            "benefit": "Instant fire safety"
         },
         "quick_access_door": {
             "feature": "Easy-access door, \n visible pulley",

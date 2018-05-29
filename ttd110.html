@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="tr" manifest="/cache.manifest" data-langkey="td">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Tolon TTD</title>
+
+  <meta name="description" content="Tolon Makine satış sunumu">
+  <meta name="author" content="Mert Torun">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport" content="width=1920, user-scalable=no">
+
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="css/tolon.css">
+
+  <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="lib/js/mustache.min.js"></script>
+    <script type="text/javascript" src="js/language.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1><img src="images/tolon-w.svg" alt="Tolon"></h1>
+  </header>
+  <div class="reveal" id="template">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      <section>
+        <h1>{{title.ttd110}}</h1>
+        <h2>{{title.sub}}</h2>
+      </section>
+
+      <section>
+        <img src="images/ttd110b-01.png">
+
+        <div style="top: 420px; left: 810px;" class="fragment" data-zoom="4">
+          <h4>{{easy_ui.feature}}</h4>
+          <h6>{{easy_ui.benefit}}</h6>
+        </div>
+        <div style="top: 410px; left: 1150px;" class="fragment">
+          <h4>{{status_light.feature}}</h4>
+          <h6>{{status_light.benefit}}</h6>
+          <img src="images/indicator-light.{{language.code}}.png" class="inlay"/>
+        </div>
+      </section>
+      <section>
+        <img src="images/ttd110b-02.png">
+
+        <div style="top: 560px; left: 800px;" class="fragment">
+          <h4>{{sliding_door.feature}}</h4>
+          <h6>{{sliding_door.benefit}}</h6>
+        </div>
+        <div style="top: 400px; left: 800px;" class="fragment">
+          <h4>{{large_volume.feature}}</h4>
+          <h6>{{large_volume.benefit}}</h6>
+        </div>
+      </section>
+      <section data-flow>
+        <img src="images/ttd110b-03.png">
+        <div style="top: 850px; left: 1000px;">
+          <h4>{{wide_filter_door.feature}}</h4>
+          <h6>{{wide_filter_door.benefit}}</h6>
+        </div>
+        <div style="top:800px; left:700px;" class="fragment">
+          <h4>{{high_volume_filter.feature}}</h4>
+          <h6>{{high_volume_filter.benefit}}</h6>
+        </div>
+        <div style="top:240px; left:500px;" class="fragment" data-zoom="3">
+          <h4>{{custom_coils.feature}}</h4>
+          <h6>{{custom_coils.benefit}}</h6>
+        </div>
+        <div style="top:240px; left:1000px;" class="fragment" data-zoom="3">
+          <h4>{{cooldown.feature}}</h4>
+          <h6>{{cooldown.benefit}}</h6>
+        </div>
+        <div style="top:450px; left:800px;" class="fragment" data-zoom="4.5">
+          <h4>{{infrared.feature}}</h4>
+          <h6>{{infrared.benefit}}</h6>
+        </div>
+
+      </section>
+      <section>
+        <img src="images/ttd110b-04.png">
+
+        <div style="top:600px; left:1000px;" data-zoom="1.5">
+          <h4>{{hinged_panels.feature}}</h4>
+          <h6>{{hinged_panels.benefit}}</h6>
+        </div>
+      </section>
+      <section>
+        <img src="images/ttd110g-05.png" alt="">
+
+        <div style="top:260px;left:1070px;" class="fragment" data-zoom="3">
+          <h4>{{custom_burner.feature}}</h4>
+          <h6>{{custom_burner.benefit}}</h6>
+        </div>
+        <div style="top:250px;left:550px;" class="fragment" data-zoom="3">
+          <h4>{{upgraded_exhaust.feature}}</h4>
+          <h6>{{upgraded_exhaust.benefit}}</h6>
+        </div>
+        <div style="top:720px;left:950px;" class="fragment" data-zoom="5">
+          <h4>{{sprinkler.feature}}</h4>
+          <h6>{{sprinkler.benefit}}</h6>
+        </div>
+        <div style="top:550px;left:900px;" class="fragment">
+          <h4>{{quick_access_door.feature}}</h4>
+          <h6>{{quick_access_door.benefit}}</h6>
+        </div>
+        <div style="top:470px;left:450px;" class="fragment">
+          <h4>{{document_sleeve.feature}}</h4>
+          <h6>{{document_sleeve.benefit}}</h6>
+        </div>
+        <div style="top:660px;left:600px;" class="fragment" data-zoom="3">
+          <h4>{{simple_circuits.feature}}</h4>
+          <h6>{{simple_circuits.benefit}}</h6>
+        </div>
+      </section>
+      <section>
+        <img src="images/ttd110b-01.png">
+      </section>
+      <section>
+        <ul>
+            <li><a href="twe-s.html">{{links.twe_s}}</a></li>
+            <li><a href="twe-m.html">{{links.twe_m}}</a></li>
+            <li><a href="twe-xl.html">{{links.twe_xl}}</a></li>
+            <li><a href="twe3.html">{{links.twe3}}</a></li>
+            <li><a href="ttd.html">{{links.ttd}}</a></li>
+            <li><a href="ttd110.html">{{links.ttd110}}</a></li>
+            <li><a href="ttf200.html">{{links.ttf200}}</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <nav id="language-selector">
+      <ul>
+      </ul>
+  </nav>
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: false,
+      progress: false,
+      history: true,
+      center: true,
+      width: 1920,
+      height: 1200,
+      margin: 0,
+
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+      // Parallax scrolling
+      // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+      // parallaxBackgroundSize: '2100px 900px',
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+        {
+          src: 'plugin/zoomin/zoomin.js',
+          async: true,
+          condition: function () {
+            return !!document.body.classList;
+          }
+        }
+        ]
+    });
+  </script>
+
+</body>
+
+</html>
