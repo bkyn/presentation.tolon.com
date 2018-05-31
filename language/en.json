@@ -34,6 +34,10 @@
             "feature": "Large volume",
             "benefit": "Extra capacity in a single cycle"
         },
+        "tilting": {
+            "feature": "12° tilt",
+            "benefit": "Quick & easy unloading"
+        },
         "wide_filter_door": {
             "feature": "Wide filter door",
             "benefit": "Easy cleaning"

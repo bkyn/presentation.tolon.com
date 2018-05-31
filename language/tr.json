@@ -30,6 +30,10 @@
             "feature": "Geniş ağız, kayar kapak",
             "benefit": "Yükleme-boşaltma kolaylığı"
         },
+        "tilting": {
+            "feature": "12° eğilme",
+            "benefit": "Zahmetsiz boşaltma"
+        },
         "wide_filter_door": {
             "feature": "Geniş filtre kapağı",
             "benefit": "Kolay temizlik"

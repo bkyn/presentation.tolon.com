@@ -34,6 +34,10 @@
             "feature": "Large porte de filtre",
             "benefit": "Néttoyage facile "
         },
+        "tilting": {
+            "feature": "12° inclinaison",
+            "benefit": "Déchargement rapide et facile"
+        },
         "high_volume_filter": {
             "feature": "Filtre à haute capacité ",
             "benefit": "Haute efficacité à long terme"

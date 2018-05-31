@@ -28,6 +28,10 @@
             "feature": "Amplio acceso, doble puerta corredera",
             "benefit": "Facilidad de carga y descarga"
         },
+        "tilting": {
+            "feature": "Tilt (inclinación) 12°",
+            "benefit": "Descarga rapida y sin esfuerzo"
+        },
         "wide_filter_door": {
             "feature": "Amplia puerta de acceso al filtro",
             "benefit": "Fácil limpieza"
