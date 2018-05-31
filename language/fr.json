@@ -9,12 +9,14 @@
         "twe_xl": "Série TWE XL",
         "twe3": "TWE/3 ordinateur",
         "ttd": "Série TTD",
-        "ttf200": "TTF200"
+        "ttf200": "TTF200",
+        "ttd110": "TTD110"
     },
     "td": {
         "title": {
             "main": "Série TTD",
-            "sub": "Séchoirs rotatif"
+            "sub": "Séchoirs rotatif",
+            "ttd110": "TTD110"
         },
         "easy_ui": {
             "feature": "Interface simple",
@@ -71,6 +73,34 @@
         "galvanized_frame": {
             "feature": "Composants galvanisés",
             "benefit": "Longue vie"
+        },
+        "large_volume": {
+            "feature": "Volume large",
+            "benefit": "Capacité augmentée par cycle"
+        },
+        "custom_coils": {
+            "feature": "Batterie de chauffe spéciale",
+            "benefit": "Haute éfficacité"
+        },
+        "cooldown": {
+            "feature": "Refroidissement",
+            "benefit": "Court temps de cycle"
+        },
+        "infrared": {
+            "feature": "Capteur infrarouge",
+            "benefit": "Economie d'énergie"
+        },
+        "upgraded_exhaust": {
+            "feature": "Echappement en haut",
+            "benefit": "Décharge rapide de chaleur"
+        },
+        "custom_burner": {
+            "feature": "Brûleur spécial",
+            "benefit": "Brûlure parfaite"
+        },
+        "sprinkler": {
+            "feature": "Système sprinkler",
+            "benefit": "Sécurité incendie instantanée"
         }
     },
     "twe3": {
