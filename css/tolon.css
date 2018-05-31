@@ -92,6 +92,7 @@ body>header>h1{
     font-family: "Open Sans", sans-serif;
     text-transform: none;
     text-shadow: 0 2px 5px black;
+    margin: auto auto .5em;
 }
 
 .reveal h6 {font-size: .5em;}
