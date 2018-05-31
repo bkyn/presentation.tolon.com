@@ -94,3 +94,10 @@
 
 * New presentation for TTD110 (pending translations: fr, es)
 * Ending link lists now contain every presentation
+
+# v38
+2018-06-01
+
+* French for TTD110
+* TTD110 tilting highlight
+* TTD110 vacuum flap
