@@ -113,6 +113,7 @@ body>header>h1{
 .reveal p.patent:lang(en):before { content: "Patent pending: "; }
 .reveal p.patent:lang(tr):before { content: "Patent başvurusu: "; }
 .reveal p.patent:lang(fr):before { content: "Brevet en instance: "; }
+.reveal p.patent:lang(es):before { content: "Patente pendiente: "; }
 
 /*.reveal .slides section div.fragment { opacity: 0.3; }
 .reveal .slides section div.fragment.current-fragment { opacity: 1; }
